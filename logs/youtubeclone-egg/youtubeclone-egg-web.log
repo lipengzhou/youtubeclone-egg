@@ -1,0 +1,346 @@
+2021-01-18 14:47:03,294 WARN 11504 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-01-18 14:47:03,296 WARN 11504 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 11504
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:39:54,026 ERROR 24056 [-/127.0.0.1/-/16ms POST /api/v1/auth/signup] nodejs.TypeError: this.ctx.validate is not a function
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+
+pid: 24056
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:41:09,793 WARN 27060 [-/127.0.0.1/-/15ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"username","code":"missing_field"}]
+pid: 27060
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:45:24,787 WARN 28404 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"user.username","code":"missing_field"}]
+pid: 28404
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:45:37,468 WARN 28404 [-/127.0.0.1/-/1ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"user.username","code":"missing_field"}]
+pid: 28404
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:46:10,467 ERROR 28404 [-/127.0.0.1/-/0ms POST /api/v1/auth/signup] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: undefined
+    at Parameter.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\parameter\index.js:106:15)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:12:39)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 28404
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:46:36,497 ERROR 16624 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: undefined
+    at Parameter.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\parameter\index.js:106:15)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:12:39)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 16624
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:47:32,282 WARN 10108 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"user.username","code":"missing_field"}]
+pid: 10108
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:48:59,883 WARN 18536 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"user.abc","code":"missing_field"}]
+pid: 18536
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:49:53,969 WARN 24292 [-/127.0.0.1/-/2ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"user.password","code":"missing_field"}]
+pid: 24292
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:50:01,269 WARN 24292 [-/127.0.0.1/-/0ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"user","code":"missing_field"}]
+pid: 24292
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:50:35,580 WARN 24292 [-/127.0.0.1/-/1ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"should be an email","code":"invalid","field":"user.email"}]
+pid: 24292
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:56:34,469 WARN 14320 [-/127.0.0.1/-/2ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:41:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"user.password","code":"missing_field"}]
+pid: 14320
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:18:32,116 ERROR 11236 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.TypeError: Cannot read property 'username' of undefined
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:47:26)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 11236
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:19:22,707 ERROR 26012 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.TypeError: Cannot read property 'user' of undefined
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:47:26)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 26012
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:20:16,092 WARN 19120 [-/127.0.0.1/-/29ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:50:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+message: "用户名已存在"
+pid: 19120
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:20:42,968 WARN 19120 [-/127.0.0.1/-/3ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:50:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+message: "用户名已存在"
+pid: 19120
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:20:47,972 WARN 19120 [-/127.0.0.1/-/4ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 邮箱已存在
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:56:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+message: "邮箱已存在"
+pid: 19120
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:20:59,258 WARN 19120 [-/127.0.0.1/-/2ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:50:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+message: "用户名已存在"
+pid: 19120
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:27:18,093 WARN 26128 [-/127.0.0.1/-/26ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:51:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+message: "用户名已存在"
+pid: 26128
+hostname: DESKTOP-CQ7J378
+

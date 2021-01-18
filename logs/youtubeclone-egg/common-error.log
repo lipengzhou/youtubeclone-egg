@@ -1,0 +1,104 @@
+2021-01-18 16:39:46,440 ERROR 28224 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 28224
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:39:53,986 ERROR 24056 [-/127.0.0.1/-/16ms POST /api/v1/auth/signup] nodejs.TypeError: this.ctx.validate is not a function
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+
+pid: 24056
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:46:10,467 ERROR 28404 [-/127.0.0.1/-/0ms POST /api/v1/auth/signup] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: undefined
+    at Parameter.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\parameter\index.js:106:15)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:12:39)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 28404
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 16:46:36,490 ERROR 16624 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: undefined
+    at Parameter.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\parameter\index.js:106:15)
+    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:12:39)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 16624
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:00:58,723 ERROR 16604 nodejs.ClusterClientNoResponseError: client no response in 2358718ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 16604
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:18:32,081 ERROR 11236 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.TypeError: Cannot read property 'username' of undefined
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:47:26)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 11236
+hostname: DESKTOP-CQ7J378
+
+2021-01-18 19:19:22,672 ERROR 26012 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.TypeError: Cannot read property 'user' of undefined
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:47:26)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 26012
+hostname: DESKTOP-CQ7J378
+

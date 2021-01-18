@@ -1,0 +1,765 @@
+2021-01-18 14:00:47,825 INFO 24488 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:00:47,854 INFO 24488 [egg-multipart] stream mode enable
+2021-01-18 14:00:47,950 INFO 24488 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:00:47,953 INFO 24488 [egg-security] use csrf middleware
+2021-01-18 14:00:47,954 INFO 24488 [egg-security] use methodnoallow middleware
+2021-01-18 14:00:47,954 INFO 24488 [egg-security] use noopen middleware
+2021-01-18 14:00:47,957 INFO 24488 [egg-security] use nosniff middleware
+2021-01-18 14:00:47,957 INFO 24488 [egg-security] use xssProtection middleware
+2021-01-18 14:00:47,957 INFO 24488 [egg-security] use xframe middleware
+2021-01-18 14:00:47,958 INFO 24488 [egg-security] use dta middleware
+2021-01-18 14:00:47,958 INFO 24488 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:00:47,965 INFO 24488 [egg:core] dump config after load, 4ms
+2021-01-18 14:00:47,974 INFO 24488 [egg-watcher:application] watcher start success
+2021-01-18 14:00:47,981 INFO 24488 [egg:core] dump config after ready, 5ms
+2021-01-18 14:37:54,908 INFO 15792 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:37:54,936 INFO 15792 [egg-multipart] stream mode enable
+2021-01-18 14:37:55,026 INFO 15792 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:37:55,029 INFO 15792 [egg-security] use csrf middleware
+2021-01-18 14:37:55,029 INFO 15792 [egg-security] use methodnoallow middleware
+2021-01-18 14:37:55,031 INFO 15792 [egg-security] use noopen middleware
+2021-01-18 14:37:55,032 INFO 15792 [egg-security] use nosniff middleware
+2021-01-18 14:37:55,032 INFO 15792 [egg-security] use xssProtection middleware
+2021-01-18 14:37:55,033 INFO 15792 [egg-security] use xframe middleware
+2021-01-18 14:37:55,033 INFO 15792 [egg-security] use dta middleware
+2021-01-18 14:37:55,033 INFO 15792 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:37:55,040 INFO 15792 [egg:core] dump config after load, 3ms
+2021-01-18 14:37:55,048 INFO 15792 [egg-watcher:application] watcher start success
+2021-01-18 14:37:55,054 INFO 15792 [egg:core] dump config after ready, 4ms
+2021-01-18 14:38:01,170 INFO 22352 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:38:01,195 INFO 22352 [egg-multipart] stream mode enable
+2021-01-18 14:38:01,283 INFO 22352 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:38:01,285 INFO 22352 [egg-security] use csrf middleware
+2021-01-18 14:38:01,286 INFO 22352 [egg-security] use methodnoallow middleware
+2021-01-18 14:38:01,287 INFO 22352 [egg-security] use noopen middleware
+2021-01-18 14:38:01,288 INFO 22352 [egg-security] use nosniff middleware
+2021-01-18 14:38:01,289 INFO 22352 [egg-security] use xssProtection middleware
+2021-01-18 14:38:01,289 INFO 22352 [egg-security] use xframe middleware
+2021-01-18 14:38:01,290 INFO 22352 [egg-security] use dta middleware
+2021-01-18 14:38:01,290 INFO 22352 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:38:01,297 INFO 22352 [egg:core] dump config after load, 3ms
+2021-01-18 14:38:01,307 INFO 22352 [egg-watcher:application] watcher start success
+2021-01-18 14:38:01,312 INFO 22352 [egg:core] dump config after ready, 4ms
+2021-01-18 14:39:38,049 INFO 24380 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:39:38,074 INFO 24380 [egg-multipart] stream mode enable
+2021-01-18 14:39:38,160 INFO 24380 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:39:38,162 INFO 24380 [egg-security] use csrf middleware
+2021-01-18 14:39:38,163 INFO 24380 [egg-security] use methodnoallow middleware
+2021-01-18 14:39:38,165 INFO 24380 [egg-security] use noopen middleware
+2021-01-18 14:39:38,165 INFO 24380 [egg-security] use nosniff middleware
+2021-01-18 14:39:38,166 INFO 24380 [egg-security] use xssProtection middleware
+2021-01-18 14:39:38,166 INFO 24380 [egg-security] use xframe middleware
+2021-01-18 14:39:38,167 INFO 24380 [egg-security] use dta middleware
+2021-01-18 14:39:38,167 INFO 24380 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:39:38,174 INFO 24380 [egg:core] dump config after load, 3ms
+2021-01-18 14:39:38,182 INFO 24380 [egg-watcher:application] watcher start success
+2021-01-18 14:39:38,187 INFO 24380 [egg:core] dump config after ready, 4ms
+2021-01-18 14:40:37,499 INFO 28612 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:40:37,523 INFO 28612 [egg-multipart] stream mode enable
+2021-01-18 14:40:37,609 INFO 28612 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:40:37,612 INFO 28612 [egg-security] use csrf middleware
+2021-01-18 14:40:37,614 INFO 28612 [egg-security] use methodnoallow middleware
+2021-01-18 14:40:37,614 INFO 28612 [egg-security] use noopen middleware
+2021-01-18 14:40:37,615 INFO 28612 [egg-security] use nosniff middleware
+2021-01-18 14:40:37,615 INFO 28612 [egg-security] use xssProtection middleware
+2021-01-18 14:40:37,616 INFO 28612 [egg-security] use xframe middleware
+2021-01-18 14:40:37,616 INFO 28612 [egg-security] use dta middleware
+2021-01-18 14:40:37,616 INFO 28612 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:40:37,625 INFO 28612 [egg:core] dump config after load, 5ms
+2021-01-18 14:40:37,633 INFO 28612 [egg-watcher:application] watcher start success
+2021-01-18 14:40:37,638 INFO 28612 [egg:core] dump config after ready, 4ms
+2021-01-18 14:43:42,192 INFO 17044 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:43:42,218 INFO 17044 [egg-multipart] stream mode enable
+2021-01-18 14:43:42,307 INFO 17044 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:43:42,309 INFO 17044 [egg-security] use csrf middleware
+2021-01-18 14:43:42,310 INFO 17044 [egg-security] use methodnoallow middleware
+2021-01-18 14:43:42,310 INFO 17044 [egg-security] use noopen middleware
+2021-01-18 14:43:42,313 INFO 17044 [egg-security] use nosniff middleware
+2021-01-18 14:43:42,313 INFO 17044 [egg-security] use xssProtection middleware
+2021-01-18 14:43:42,314 INFO 17044 [egg-security] use xframe middleware
+2021-01-18 14:43:42,314 INFO 17044 [egg-security] use dta middleware
+2021-01-18 14:43:42,314 INFO 17044 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:43:42,321 INFO 17044 [egg:core] dump config after load, 3ms
+2021-01-18 14:43:42,329 INFO 17044 [egg-watcher:application] watcher start success
+2021-01-18 14:43:42,335 INFO 17044 [egg:core] dump config after ready, 4ms
+2021-01-18 14:45:51,723 INFO 28500 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:45:51,749 INFO 28500 [egg-multipart] stream mode enable
+2021-01-18 14:45:51,835 INFO 28500 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:45:51,837 INFO 28500 [egg-security] use csrf middleware
+2021-01-18 14:45:51,839 INFO 28500 [egg-security] use methodnoallow middleware
+2021-01-18 14:45:51,839 INFO 28500 [egg-security] use noopen middleware
+2021-01-18 14:45:51,840 INFO 28500 [egg-security] use nosniff middleware
+2021-01-18 14:45:51,841 INFO 28500 [egg-security] use xssProtection middleware
+2021-01-18 14:45:51,841 INFO 28500 [egg-security] use xframe middleware
+2021-01-18 14:45:51,841 INFO 28500 [egg-security] use dta middleware
+2021-01-18 14:45:51,841 INFO 28500 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:45:51,849 INFO 28500 [egg:core] dump config after load, 3ms
+2021-01-18 14:45:51,856 INFO 28500 [egg-watcher:application] watcher start success
+2021-01-18 14:45:51,862 INFO 28500 [egg:core] dump config after ready, 4ms
+2021-01-18 14:46:53,523 INFO 11504 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:46:53,550 INFO 11504 [egg-multipart] stream mode enable
+2021-01-18 14:46:53,637 INFO 11504 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:46:53,639 INFO 11504 [egg-security] use csrf middleware
+2021-01-18 14:46:53,641 INFO 11504 [egg-security] use methodnoallow middleware
+2021-01-18 14:46:53,642 INFO 11504 [egg-security] use noopen middleware
+2021-01-18 14:46:53,643 INFO 11504 [egg-security] use nosniff middleware
+2021-01-18 14:46:53,643 INFO 11504 [egg-security] use xssProtection middleware
+2021-01-18 14:46:53,644 INFO 11504 [egg-security] use xframe middleware
+2021-01-18 14:46:53,644 INFO 11504 [egg-security] use dta middleware
+2021-01-18 14:46:53,644 INFO 11504 [egg-security] compose 7 middlewares into one security middleware
+2021-01-18 14:46:53,652 INFO 11504 [egg:core] dump config after load, 4ms
+2021-01-18 14:46:53,662 INFO 11504 [egg-watcher:application] watcher start success
+2021-01-18 14:46:53,667 INFO 11504 [egg:core] dump config after ready, 4ms
+2021-01-18 14:48:35,102 INFO 15328 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:48:35,130 INFO 15328 [egg-multipart] stream mode enable
+2021-01-18 14:48:35,223 INFO 15328 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:48:35,225 INFO 15328 [egg-security] use methodnoallow middleware
+2021-01-18 14:48:35,225 INFO 15328 [egg-security] use noopen middleware
+2021-01-18 14:48:35,227 INFO 15328 [egg-security] use nosniff middleware
+2021-01-18 14:48:35,228 INFO 15328 [egg-security] use xssProtection middleware
+2021-01-18 14:48:35,228 INFO 15328 [egg-security] use xframe middleware
+2021-01-18 14:48:35,229 INFO 15328 [egg-security] use dta middleware
+2021-01-18 14:48:35,229 INFO 15328 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 14:48:35,236 INFO 15328 [egg:core] dump config after load, 3ms
+2021-01-18 14:48:35,244 INFO 15328 [egg-watcher:application] watcher start success
+2021-01-18 14:48:35,250 INFO 15328 [egg:core] dump config after ready, 5ms
+2021-01-18 14:48:41,684 INFO 27192 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:48:41,712 INFO 27192 [egg-multipart] stream mode enable
+2021-01-18 14:48:41,798 INFO 27192 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:48:41,800 INFO 27192 [egg-security] use methodnoallow middleware
+2021-01-18 14:48:41,800 INFO 27192 [egg-security] use noopen middleware
+2021-01-18 14:48:41,801 INFO 27192 [egg-security] use nosniff middleware
+2021-01-18 14:48:41,801 INFO 27192 [egg-security] use xssProtection middleware
+2021-01-18 14:48:41,803 INFO 27192 [egg-security] use xframe middleware
+2021-01-18 14:48:41,804 INFO 27192 [egg-security] use dta middleware
+2021-01-18 14:48:41,804 INFO 27192 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 14:48:41,811 INFO 27192 [egg:core] dump config after load, 3ms
+2021-01-18 14:48:41,821 INFO 27192 [egg-watcher:application] watcher start success
+2021-01-18 14:48:41,828 INFO 27192 [egg:core] dump config after ready, 4ms
+2021-01-18 14:53:11,914 INFO 28972 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 14:53:11,939 INFO 28972 [egg-multipart] stream mode enable
+2021-01-18 14:53:12,028 INFO 28972 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 14:53:12,030 INFO 28972 [egg-security] use methodnoallow middleware
+2021-01-18 14:53:12,031 INFO 28972 [egg-security] use noopen middleware
+2021-01-18 14:53:12,032 INFO 28972 [egg-security] use nosniff middleware
+2021-01-18 14:53:12,033 INFO 28972 [egg-security] use xssProtection middleware
+2021-01-18 14:53:12,034 INFO 28972 [egg-security] use xframe middleware
+2021-01-18 14:53:12,034 INFO 28972 [egg-security] use dta middleware
+2021-01-18 14:53:12,034 INFO 28972 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 14:53:12,042 INFO 28972 [egg:core] dump config after load, 3ms
+2021-01-18 14:53:12,049 INFO 28972 [egg-watcher:application] watcher start success
+2021-01-18 14:53:12,055 INFO 28972 [egg:core] dump config after ready, 4ms
+2021-01-18 16:39:46,512 INFO 24056 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:39:46,539 INFO 24056 [egg-multipart] stream mode enable
+2021-01-18 16:39:46,632 INFO 24056 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:39:46,634 INFO 24056 [egg-security] use methodnoallow middleware
+2021-01-18 16:39:46,634 INFO 24056 [egg-security] use noopen middleware
+2021-01-18 16:39:46,635 INFO 24056 [egg-security] use nosniff middleware
+2021-01-18 16:39:46,635 INFO 24056 [egg-security] use xssProtection middleware
+2021-01-18 16:39:46,636 INFO 24056 [egg-security] use xframe middleware
+2021-01-18 16:39:46,636 INFO 24056 [egg-security] use dta middleware
+2021-01-18 16:39:46,636 INFO 24056 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:39:46,645 INFO 24056 [egg:core] dump config after load, 3ms
+2021-01-18 16:39:46,654 INFO 24056 [egg-watcher:application] watcher start success
+2021-01-18 16:39:46,660 INFO 24056 [egg:core] dump config after ready, 4ms
+2021-01-18 16:40:59,851 INFO 27060 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:40:59,878 INFO 27060 [egg-multipart] stream mode enable
+2021-01-18 16:40:59,965 INFO 27060 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:40:59,967 INFO 27060 [egg-security] use methodnoallow middleware
+2021-01-18 16:40:59,967 INFO 27060 [egg-security] use noopen middleware
+2021-01-18 16:40:59,968 INFO 27060 [egg-security] use nosniff middleware
+2021-01-18 16:40:59,968 INFO 27060 [egg-security] use xssProtection middleware
+2021-01-18 16:40:59,969 INFO 27060 [egg-security] use xframe middleware
+2021-01-18 16:40:59,969 INFO 27060 [egg-security] use dta middleware
+2021-01-18 16:40:59,969 INFO 27060 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:40:59,977 INFO 27060 [egg:core] dump config after load, 3ms
+2021-01-18 16:40:59,986 INFO 27060 [egg-watcher:application] watcher start success
+2021-01-18 16:40:59,991 INFO 27060 [egg:core] dump config after ready, 4ms
+2021-01-18 16:41:51,357 INFO 21972 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:41:51,383 INFO 21972 [egg-multipart] stream mode enable
+2021-01-18 16:41:51,467 INFO 21972 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:41:51,469 INFO 21972 [egg-security] use methodnoallow middleware
+2021-01-18 16:41:51,469 INFO 21972 [egg-security] use noopen middleware
+2021-01-18 16:41:51,470 INFO 21972 [egg-security] use nosniff middleware
+2021-01-18 16:41:51,471 INFO 21972 [egg-security] use xssProtection middleware
+2021-01-18 16:41:51,471 INFO 21972 [egg-security] use xframe middleware
+2021-01-18 16:41:51,471 INFO 21972 [egg-security] use dta middleware
+2021-01-18 16:41:51,471 INFO 21972 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:41:51,479 INFO 21972 [egg:core] dump config after load, 4ms
+2021-01-18 16:41:51,486 INFO 21972 [egg-watcher:application] watcher start success
+2021-01-18 16:41:51,492 INFO 21972 [egg:core] dump config after ready, 4ms
+2021-01-18 16:45:20,916 INFO 28404 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:45:20,944 INFO 28404 [egg-multipart] stream mode enable
+2021-01-18 16:45:21,037 INFO 28404 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:45:21,040 INFO 28404 [egg-security] use methodnoallow middleware
+2021-01-18 16:45:21,040 INFO 28404 [egg-security] use noopen middleware
+2021-01-18 16:45:21,041 INFO 28404 [egg-security] use nosniff middleware
+2021-01-18 16:45:21,041 INFO 28404 [egg-security] use xssProtection middleware
+2021-01-18 16:45:21,042 INFO 28404 [egg-security] use xframe middleware
+2021-01-18 16:45:21,042 INFO 28404 [egg-security] use dta middleware
+2021-01-18 16:45:21,042 INFO 28404 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:45:21,050 INFO 28404 [egg:core] dump config after load, 4ms
+2021-01-18 16:45:21,059 INFO 28404 [egg-watcher:application] watcher start success
+2021-01-18 16:45:21,065 INFO 28404 [egg:core] dump config after ready, 5ms
+2021-01-18 16:46:32,656 INFO 16624 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:46:32,683 INFO 16624 [egg-multipart] stream mode enable
+2021-01-18 16:46:32,772 INFO 16624 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:46:32,774 INFO 16624 [egg-security] use methodnoallow middleware
+2021-01-18 16:46:32,774 INFO 16624 [egg-security] use noopen middleware
+2021-01-18 16:46:32,775 INFO 16624 [egg-security] use nosniff middleware
+2021-01-18 16:46:32,776 INFO 16624 [egg-security] use xssProtection middleware
+2021-01-18 16:46:32,776 INFO 16624 [egg-security] use xframe middleware
+2021-01-18 16:46:32,776 INFO 16624 [egg-security] use dta middleware
+2021-01-18 16:46:32,777 INFO 16624 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:46:32,784 INFO 16624 [egg:core] dump config after load, 4ms
+2021-01-18 16:46:32,792 INFO 16624 [egg-watcher:application] watcher start success
+2021-01-18 16:46:32,797 INFO 16624 [egg:core] dump config after ready, 4ms
+2021-01-18 16:46:51,899 INFO 1816 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:46:51,928 INFO 1816 [egg-multipart] stream mode enable
+2021-01-18 16:46:52,028 INFO 1816 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:46:52,030 INFO 1816 [egg-security] use methodnoallow middleware
+2021-01-18 16:46:52,031 INFO 1816 [egg-security] use noopen middleware
+2021-01-18 16:46:52,031 INFO 1816 [egg-security] use nosniff middleware
+2021-01-18 16:46:52,032 INFO 1816 [egg-security] use xssProtection middleware
+2021-01-18 16:46:52,032 INFO 1816 [egg-security] use xframe middleware
+2021-01-18 16:46:52,033 INFO 1816 [egg-security] use dta middleware
+2021-01-18 16:46:52,033 INFO 1816 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:46:52,042 INFO 1816 [egg:core] dump config after load, 4ms
+2021-01-18 16:46:52,049 INFO 1816 [egg-watcher:application] watcher start success
+2021-01-18 16:46:52,055 INFO 1816 [egg:core] dump config after ready, 4ms
+2021-01-18 16:47:21,367 INFO 7052 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:47:21,391 INFO 7052 [egg-multipart] stream mode enable
+2021-01-18 16:47:21,479 INFO 7052 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:47:21,480 INFO 7052 [egg-security] use methodnoallow middleware
+2021-01-18 16:47:21,481 INFO 7052 [egg-security] use noopen middleware
+2021-01-18 16:47:21,482 INFO 7052 [egg-security] use nosniff middleware
+2021-01-18 16:47:21,482 INFO 7052 [egg-security] use xssProtection middleware
+2021-01-18 16:47:21,482 INFO 7052 [egg-security] use xframe middleware
+2021-01-18 16:47:21,483 INFO 7052 [egg-security] use dta middleware
+2021-01-18 16:47:21,483 INFO 7052 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:47:21,490 INFO 7052 [egg:core] dump config after load, 3ms
+2021-01-18 16:47:21,498 INFO 7052 [egg-watcher:application] watcher start success
+2021-01-18 16:47:21,503 INFO 7052 [egg:core] dump config after ready, 4ms
+2021-01-18 16:47:31,098 INFO 10108 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:47:31,127 INFO 10108 [egg-multipart] stream mode enable
+2021-01-18 16:47:31,223 INFO 10108 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:47:31,225 INFO 10108 [egg-security] use methodnoallow middleware
+2021-01-18 16:47:31,226 INFO 10108 [egg-security] use noopen middleware
+2021-01-18 16:47:31,226 INFO 10108 [egg-security] use nosniff middleware
+2021-01-18 16:47:31,227 INFO 10108 [egg-security] use xssProtection middleware
+2021-01-18 16:47:31,227 INFO 10108 [egg-security] use xframe middleware
+2021-01-18 16:47:31,228 INFO 10108 [egg-security] use dta middleware
+2021-01-18 16:47:31,228 INFO 10108 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:47:31,237 INFO 10108 [egg:core] dump config after load, 6ms
+2021-01-18 16:47:31,245 INFO 10108 [egg-watcher:application] watcher start success
+2021-01-18 16:47:31,252 INFO 10108 [egg:core] dump config after ready, 6ms
+2021-01-18 16:47:39,238 INFO 18316 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:47:39,264 INFO 18316 [egg-multipart] stream mode enable
+2021-01-18 16:47:39,353 INFO 18316 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:47:39,356 INFO 18316 [egg-security] use methodnoallow middleware
+2021-01-18 16:47:39,356 INFO 18316 [egg-security] use noopen middleware
+2021-01-18 16:47:39,357 INFO 18316 [egg-security] use nosniff middleware
+2021-01-18 16:47:39,358 INFO 18316 [egg-security] use xssProtection middleware
+2021-01-18 16:47:39,359 INFO 18316 [egg-security] use xframe middleware
+2021-01-18 16:47:39,359 INFO 18316 [egg-security] use dta middleware
+2021-01-18 16:47:39,359 INFO 18316 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:47:39,369 INFO 18316 [egg:core] dump config after load, 5ms
+2021-01-18 16:47:39,376 INFO 18316 [egg-watcher:application] watcher start success
+2021-01-18 16:47:39,383 INFO 18316 [egg:core] dump config after ready, 5ms
+2021-01-18 16:48:33,904 INFO 28444 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:48:33,931 INFO 28444 [egg-multipart] stream mode enable
+2021-01-18 16:48:34,019 INFO 28444 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:48:34,021 INFO 28444 [egg-security] use methodnoallow middleware
+2021-01-18 16:48:34,022 INFO 28444 [egg-security] use noopen middleware
+2021-01-18 16:48:34,023 INFO 28444 [egg-security] use nosniff middleware
+2021-01-18 16:48:34,023 INFO 28444 [egg-security] use xssProtection middleware
+2021-01-18 16:48:34,024 INFO 28444 [egg-security] use xframe middleware
+2021-01-18 16:48:34,024 INFO 28444 [egg-security] use dta middleware
+2021-01-18 16:48:34,024 INFO 28444 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:48:34,031 INFO 28444 [egg:core] dump config after load, 3ms
+2021-01-18 16:48:34,040 INFO 28444 [egg-watcher:application] watcher start success
+2021-01-18 16:48:34,046 INFO 28444 [egg:core] dump config after ready, 5ms
+2021-01-18 16:48:58,750 INFO 18536 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:48:58,777 INFO 18536 [egg-multipart] stream mode enable
+2021-01-18 16:48:58,869 INFO 18536 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:48:58,871 INFO 18536 [egg-security] use methodnoallow middleware
+2021-01-18 16:48:58,872 INFO 18536 [egg-security] use noopen middleware
+2021-01-18 16:48:58,873 INFO 18536 [egg-security] use nosniff middleware
+2021-01-18 16:48:58,873 INFO 18536 [egg-security] use xssProtection middleware
+2021-01-18 16:48:58,873 INFO 18536 [egg-security] use xframe middleware
+2021-01-18 16:48:58,874 INFO 18536 [egg-security] use dta middleware
+2021-01-18 16:48:58,874 INFO 18536 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:48:58,881 INFO 18536 [egg:core] dump config after load, 3ms
+2021-01-18 16:48:58,890 INFO 18536 [egg-watcher:application] watcher start success
+2021-01-18 16:48:58,896 INFO 18536 [egg:core] dump config after ready, 4ms
+2021-01-18 16:49:38,582 INFO 24292 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:49:38,608 INFO 24292 [egg-multipart] stream mode enable
+2021-01-18 16:49:38,699 INFO 24292 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:49:38,702 INFO 24292 [egg-security] use methodnoallow middleware
+2021-01-18 16:49:38,702 INFO 24292 [egg-security] use noopen middleware
+2021-01-18 16:49:38,703 INFO 24292 [egg-security] use nosniff middleware
+2021-01-18 16:49:38,703 INFO 24292 [egg-security] use xssProtection middleware
+2021-01-18 16:49:38,704 INFO 24292 [egg-security] use xframe middleware
+2021-01-18 16:49:38,704 INFO 24292 [egg-security] use dta middleware
+2021-01-18 16:49:38,704 INFO 24292 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:49:38,712 INFO 24292 [egg:core] dump config after load, 4ms
+2021-01-18 16:49:38,721 INFO 24292 [egg-watcher:application] watcher start success
+2021-01-18 16:49:38,729 INFO 24292 [egg:core] dump config after ready, 7ms
+2021-01-18 16:51:28,230 INFO 26720 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:51:28,260 INFO 26720 [egg-multipart] stream mode enable
+2021-01-18 16:51:28,358 INFO 26720 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:51:28,360 INFO 26720 [egg-security] use methodnoallow middleware
+2021-01-18 16:51:28,361 INFO 26720 [egg-security] use noopen middleware
+2021-01-18 16:51:28,361 INFO 26720 [egg-security] use nosniff middleware
+2021-01-18 16:51:28,362 INFO 26720 [egg-security] use xssProtection middleware
+2021-01-18 16:51:28,362 INFO 26720 [egg-security] use xframe middleware
+2021-01-18 16:51:28,363 INFO 26720 [egg-security] use dta middleware
+2021-01-18 16:51:28,363 INFO 26720 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:51:28,370 INFO 26720 [egg:core] dump config after load, 3ms
+2021-01-18 16:51:28,379 INFO 26720 [egg-watcher:application] watcher start success
+2021-01-18 16:51:28,385 INFO 26720 [egg:core] dump config after ready, 5ms
+2021-01-18 16:51:53,914 INFO 14144 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:51:53,944 INFO 14144 [egg-multipart] stream mode enable
+2021-01-18 16:51:54,037 INFO 14144 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:51:54,039 INFO 14144 [egg-security] use methodnoallow middleware
+2021-01-18 16:51:54,039 INFO 14144 [egg-security] use noopen middleware
+2021-01-18 16:51:54,040 INFO 14144 [egg-security] use nosniff middleware
+2021-01-18 16:51:54,040 INFO 14144 [egg-security] use xssProtection middleware
+2021-01-18 16:51:54,041 INFO 14144 [egg-security] use xframe middleware
+2021-01-18 16:51:54,041 INFO 14144 [egg-security] use dta middleware
+2021-01-18 16:51:54,041 INFO 14144 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:51:54,049 INFO 14144 [egg:core] dump config after load, 3ms
+2021-01-18 16:51:54,056 INFO 14144 [egg-watcher:application] watcher start success
+2021-01-18 16:51:54,062 INFO 14144 [egg:core] dump config after ready, 4ms
+2021-01-18 16:52:03,241 INFO 2436 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:52:03,271 INFO 2436 [egg-multipart] stream mode enable
+2021-01-18 16:52:03,369 INFO 2436 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:52:03,371 INFO 2436 [egg-security] use methodnoallow middleware
+2021-01-18 16:52:03,372 INFO 2436 [egg-security] use noopen middleware
+2021-01-18 16:52:03,373 INFO 2436 [egg-security] use nosniff middleware
+2021-01-18 16:52:03,373 INFO 2436 [egg-security] use xssProtection middleware
+2021-01-18 16:52:03,373 INFO 2436 [egg-security] use xframe middleware
+2021-01-18 16:52:03,374 INFO 2436 [egg-security] use dta middleware
+2021-01-18 16:52:03,374 INFO 2436 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:52:03,382 INFO 2436 [egg:core] dump config after load, 3ms
+2021-01-18 16:52:03,391 INFO 2436 [egg-watcher:application] watcher start success
+2021-01-18 16:52:03,397 INFO 2436 [egg:core] dump config after ready, 5ms
+2021-01-18 16:52:17,217 INFO 25800 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:52:17,245 INFO 25800 [egg-multipart] stream mode enable
+2021-01-18 16:52:17,331 INFO 25800 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:52:17,333 INFO 25800 [egg-security] use methodnoallow middleware
+2021-01-18 16:52:17,333 INFO 25800 [egg-security] use noopen middleware
+2021-01-18 16:52:17,334 INFO 25800 [egg-security] use nosniff middleware
+2021-01-18 16:52:17,334 INFO 25800 [egg-security] use xssProtection middleware
+2021-01-18 16:52:17,335 INFO 25800 [egg-security] use xframe middleware
+2021-01-18 16:52:17,335 INFO 25800 [egg-security] use dta middleware
+2021-01-18 16:52:17,335 INFO 25800 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:52:17,343 INFO 25800 [egg:core] dump config after load, 4ms
+2021-01-18 16:52:17,350 INFO 25800 [egg-watcher:application] watcher start success
+2021-01-18 16:52:17,356 INFO 25800 [egg:core] dump config after ready, 5ms
+2021-01-18 16:52:25,821 INFO 4052 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:52:25,850 INFO 4052 [egg-multipart] stream mode enable
+2021-01-18 16:52:25,938 INFO 4052 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:52:25,941 INFO 4052 [egg-security] use methodnoallow middleware
+2021-01-18 16:52:25,941 INFO 4052 [egg-security] use noopen middleware
+2021-01-18 16:52:25,942 INFO 4052 [egg-security] use nosniff middleware
+2021-01-18 16:52:25,942 INFO 4052 [egg-security] use xssProtection middleware
+2021-01-18 16:52:25,943 INFO 4052 [egg-security] use xframe middleware
+2021-01-18 16:52:25,943 INFO 4052 [egg-security] use dta middleware
+2021-01-18 16:52:25,943 INFO 4052 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:52:25,951 INFO 4052 [egg:core] dump config after load, 4ms
+2021-01-18 16:52:25,959 INFO 4052 [egg-watcher:application] watcher start success
+2021-01-18 16:52:25,965 INFO 4052 [egg:core] dump config after ready, 5ms
+2021-01-18 16:56:15,735 INFO 26476 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:56:15,761 INFO 26476 [egg-multipart] stream mode enable
+2021-01-18 16:56:15,852 INFO 26476 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:56:15,854 INFO 26476 [egg-security] use methodnoallow middleware
+2021-01-18 16:56:15,854 INFO 26476 [egg-security] use noopen middleware
+2021-01-18 16:56:15,855 INFO 26476 [egg-security] use nosniff middleware
+2021-01-18 16:56:15,855 INFO 26476 [egg-security] use xssProtection middleware
+2021-01-18 16:56:15,856 INFO 26476 [egg-security] use xframe middleware
+2021-01-18 16:56:15,856 INFO 26476 [egg-security] use dta middleware
+2021-01-18 16:56:15,856 INFO 26476 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:56:15,864 INFO 26476 [egg:core] dump config after load, 4ms
+2021-01-18 16:56:15,872 INFO 26476 [egg-watcher:application] watcher start success
+2021-01-18 16:56:15,878 INFO 26476 [egg:core] dump config after ready, 5ms
+2021-01-18 16:56:22,993 INFO 14320 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 16:56:23,023 INFO 14320 [egg-multipart] stream mode enable
+2021-01-18 16:56:23,111 INFO 14320 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 16:56:23,113 INFO 14320 [egg-security] use methodnoallow middleware
+2021-01-18 16:56:23,113 INFO 14320 [egg-security] use noopen middleware
+2021-01-18 16:56:23,114 INFO 14320 [egg-security] use nosniff middleware
+2021-01-18 16:56:23,114 INFO 14320 [egg-security] use xssProtection middleware
+2021-01-18 16:56:23,115 INFO 14320 [egg-security] use xframe middleware
+2021-01-18 16:56:23,115 INFO 14320 [egg-security] use dta middleware
+2021-01-18 16:56:23,115 INFO 14320 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 16:56:23,123 INFO 14320 [egg:core] dump config after load, 4ms
+2021-01-18 16:56:23,130 INFO 14320 [egg-watcher:application] watcher start success
+2021-01-18 16:56:23,136 INFO 14320 [egg:core] dump config after ready, 4ms
+2021-01-18 17:57:57,052 INFO 26536 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 17:57:57,080 INFO 26536 [egg-multipart] stream mode enable
+2021-01-18 17:57:57,468 INFO 26536 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 17:57:57,471 INFO 26536 [egg-security] use methodnoallow middleware
+2021-01-18 17:57:57,472 INFO 26536 [egg-security] use noopen middleware
+2021-01-18 17:57:57,473 INFO 26536 [egg-security] use nosniff middleware
+2021-01-18 17:57:57,473 INFO 26536 [egg-security] use xssProtection middleware
+2021-01-18 17:57:57,474 INFO 26536 [egg-security] use xframe middleware
+2021-01-18 17:57:57,474 INFO 26536 [egg-security] use dta middleware
+2021-01-18 17:57:57,474 INFO 26536 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 17:57:57,484 INFO 26536 [egg:core] dump config after load, 3ms
+2021-01-18 17:57:57,498 INFO 26536 [egg-watcher:application] watcher start success
+2021-01-18 17:57:57,505 INFO 26536 [egg:core] dump config after ready, 5ms
+2021-01-18 17:57:58,392 INFO 12852 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 17:57:58,418 INFO 12852 [egg-multipart] stream mode enable
+2021-01-18 17:57:58,783 INFO 12852 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 17:57:58,785 INFO 12852 [egg-security] use methodnoallow middleware
+2021-01-18 17:57:58,786 INFO 12852 [egg-security] use noopen middleware
+2021-01-18 17:57:58,786 INFO 12852 [egg-security] use nosniff middleware
+2021-01-18 17:57:58,787 INFO 12852 [egg-security] use xssProtection middleware
+2021-01-18 17:57:58,787 INFO 12852 [egg-security] use xframe middleware
+2021-01-18 17:57:58,788 INFO 12852 [egg-security] use dta middleware
+2021-01-18 17:57:58,788 INFO 12852 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 17:57:58,795 INFO 12852 [egg:core] dump config after load, 3ms
+2021-01-18 17:57:58,808 INFO 12852 [egg-watcher:application] watcher start success
+2021-01-18 17:57:58,814 INFO 12852 [egg:core] dump config after ready, 5ms
+2021-01-18 17:59:28,932 INFO 3480 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 17:59:28,957 INFO 3480 [egg-multipart] stream mode enable
+2021-01-18 17:59:29,242 INFO 3480 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 17:59:29,334 INFO 3480 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 17:59:29,335 INFO 3480 [egg-security] use methodnoallow middleware
+2021-01-18 17:59:29,336 INFO 3480 [egg-security] use noopen middleware
+2021-01-18 17:59:29,337 INFO 3480 [egg-security] use nosniff middleware
+2021-01-18 17:59:29,337 INFO 3480 [egg-security] use xssProtection middleware
+2021-01-18 17:59:29,337 INFO 3480 [egg-security] use xframe middleware
+2021-01-18 17:59:29,338 INFO 3480 [egg-security] use dta middleware
+2021-01-18 17:59:29,338 INFO 3480 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 17:59:29,346 INFO 3480 [egg:core] dump config after load, 3ms
+2021-01-18 17:59:29,349 INFO 3480 [egg-mongoose] starting...
+2021-01-18 17:59:29,365 INFO 3480 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 17:59:29,365 INFO 3480 [egg-mongoose] instance[0] start successfully
+2021-01-18 17:59:29,367 INFO 3480 [egg-watcher:application] watcher start success
+2021-01-18 17:59:29,373 INFO 3480 [egg:core] dump config after ready, 5ms
+2021-01-18 17:59:53,934 INFO 11300 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 17:59:53,960 INFO 11300 [egg-multipart] stream mode enable
+2021-01-18 17:59:54,250 INFO 11300 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 17:59:54,341 INFO 11300 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 17:59:54,343 INFO 11300 [egg-security] use methodnoallow middleware
+2021-01-18 17:59:54,343 INFO 11300 [egg-security] use noopen middleware
+2021-01-18 17:59:54,344 INFO 11300 [egg-security] use nosniff middleware
+2021-01-18 17:59:54,344 INFO 11300 [egg-security] use xssProtection middleware
+2021-01-18 17:59:54,345 INFO 11300 [egg-security] use xframe middleware
+2021-01-18 17:59:54,345 INFO 11300 [egg-security] use dta middleware
+2021-01-18 17:59:54,345 INFO 11300 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 17:59:54,353 INFO 11300 [egg:core] dump config after load, 4ms
+2021-01-18 17:59:54,356 INFO 11300 [egg-mongoose] starting...
+2021-01-18 17:59:54,373 INFO 11300 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 17:59:54,373 INFO 11300 [egg-mongoose] instance[0] start successfully
+2021-01-18 17:59:54,375 INFO 11300 [egg-watcher:application] watcher start success
+2021-01-18 17:59:54,381 INFO 11300 [egg:core] dump config after ready, 5ms
+2021-01-18 18:01:04,923 INFO 25496 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 18:01:04,948 INFO 25496 [egg-multipart] stream mode enable
+2021-01-18 18:01:05,235 INFO 25496 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 18:01:05,327 INFO 25496 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 18:01:05,329 INFO 25496 [egg-security] use methodnoallow middleware
+2021-01-18 18:01:05,330 INFO 25496 [egg-security] use noopen middleware
+2021-01-18 18:01:05,331 INFO 25496 [egg-security] use nosniff middleware
+2021-01-18 18:01:05,331 INFO 25496 [egg-security] use xssProtection middleware
+2021-01-18 18:01:05,331 INFO 25496 [egg-security] use xframe middleware
+2021-01-18 18:01:05,332 INFO 25496 [egg-security] use dta middleware
+2021-01-18 18:01:05,332 INFO 25496 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 18:01:05,339 INFO 25496 [egg:core] dump config after load, 3ms
+2021-01-18 18:01:05,343 INFO 25496 [egg-mongoose] starting...
+2021-01-18 18:01:05,360 INFO 25496 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 18:01:05,361 INFO 25496 [egg-mongoose] instance[0] start successfully
+2021-01-18 18:01:05,363 INFO 25496 [egg-watcher:application] watcher start success
+2021-01-18 18:01:05,369 INFO 25496 [egg:core] dump config after ready, 4ms
+2021-01-18 18:02:23,771 INFO 16896 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 18:02:23,797 INFO 16896 [egg-multipart] stream mode enable
+2021-01-18 18:02:24,086 INFO 16896 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 18:02:24,175 INFO 16896 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 18:02:24,177 INFO 16896 [egg-security] use methodnoallow middleware
+2021-01-18 18:02:24,177 INFO 16896 [egg-security] use noopen middleware
+2021-01-18 18:02:24,178 INFO 16896 [egg-security] use nosniff middleware
+2021-01-18 18:02:24,178 INFO 16896 [egg-security] use xssProtection middleware
+2021-01-18 18:02:24,179 INFO 16896 [egg-security] use xframe middleware
+2021-01-18 18:02:24,179 INFO 16896 [egg-security] use dta middleware
+2021-01-18 18:02:24,179 INFO 16896 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 18:02:24,186 INFO 16896 [egg:core] dump config after load, 3ms
+2021-01-18 18:02:24,191 INFO 16896 [egg-mongoose] starting...
+2021-01-18 18:02:24,213 INFO 16896 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 18:02:24,213 INFO 16896 [egg-mongoose] instance[0] start successfully
+2021-01-18 18:02:24,215 INFO 16896 [egg-watcher:application] watcher start success
+2021-01-18 18:02:24,221 INFO 16896 [egg:core] dump config after ready, 4ms
+2021-01-18 18:04:43,823 INFO 17188 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 18:04:43,849 INFO 17188 [egg-multipart] stream mode enable
+2021-01-18 18:04:44,158 INFO 17188 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 18:04:44,250 INFO 17188 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 18:04:44,252 INFO 17188 [egg-security] use methodnoallow middleware
+2021-01-18 18:04:44,252 INFO 17188 [egg-security] use noopen middleware
+2021-01-18 18:04:44,253 INFO 17188 [egg-security] use nosniff middleware
+2021-01-18 18:04:44,253 INFO 17188 [egg-security] use xssProtection middleware
+2021-01-18 18:04:44,254 INFO 17188 [egg-security] use xframe middleware
+2021-01-18 18:04:44,254 INFO 17188 [egg-security] use dta middleware
+2021-01-18 18:04:44,254 INFO 17188 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 18:04:44,262 INFO 17188 [egg:core] dump config after load, 4ms
+2021-01-18 18:04:44,266 INFO 17188 [egg-mongoose] starting...
+2021-01-18 18:04:44,286 INFO 17188 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 18:04:44,287 INFO 17188 [egg-mongoose] instance[0] start successfully
+2021-01-18 18:04:44,292 INFO 17188 [egg-watcher:application] watcher start success
+2021-01-18 18:04:44,298 INFO 17188 [egg:core] dump config after ready, 5ms
+2021-01-18 18:04:46,367 INFO 29356 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 18:04:46,393 INFO 29356 [egg-multipart] stream mode enable
+2021-01-18 18:04:46,678 INFO 29356 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 18:04:46,776 INFO 29356 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 18:04:46,778 INFO 29356 [egg-security] use methodnoallow middleware
+2021-01-18 18:04:46,778 INFO 29356 [egg-security] use noopen middleware
+2021-01-18 18:04:46,779 INFO 29356 [egg-security] use nosniff middleware
+2021-01-18 18:04:46,780 INFO 29356 [egg-security] use xssProtection middleware
+2021-01-18 18:04:46,780 INFO 29356 [egg-security] use xframe middleware
+2021-01-18 18:04:46,781 INFO 29356 [egg-security] use dta middleware
+2021-01-18 18:04:46,781 INFO 29356 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 18:04:46,788 INFO 29356 [egg:core] dump config after load, 3ms
+2021-01-18 18:04:46,793 INFO 29356 [egg-mongoose] starting...
+2021-01-18 18:04:46,816 INFO 29356 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 18:04:46,817 INFO 29356 [egg-mongoose] instance[0] start successfully
+2021-01-18 18:04:46,818 INFO 29356 [egg-watcher:application] watcher start success
+2021-01-18 18:04:46,827 INFO 29356 [egg:core] dump config after ready, 7ms
+2021-01-18 18:05:19,124 INFO 8816 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 18:05:19,149 INFO 8816 [egg-multipart] stream mode enable
+2021-01-18 18:05:19,430 INFO 8816 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 18:05:19,546 INFO 8816 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 18:05:19,548 INFO 8816 [egg-security] use methodnoallow middleware
+2021-01-18 18:05:19,548 INFO 8816 [egg-security] use noopen middleware
+2021-01-18 18:05:19,549 INFO 8816 [egg-security] use nosniff middleware
+2021-01-18 18:05:19,549 INFO 8816 [egg-security] use xssProtection middleware
+2021-01-18 18:05:19,550 INFO 8816 [egg-security] use xframe middleware
+2021-01-18 18:05:19,550 INFO 8816 [egg-security] use dta middleware
+2021-01-18 18:05:19,550 INFO 8816 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 18:05:19,559 INFO 8816 [egg:core] dump config after load, 4ms
+2021-01-18 18:05:19,563 INFO 8816 [egg-mongoose] starting...
+2021-01-18 18:05:19,587 INFO 8816 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 18:05:19,588 INFO 8816 [egg-mongoose] instance[0] start successfully
+2021-01-18 18:05:19,590 INFO 8816 [egg-watcher:application] watcher start success
+2021-01-18 18:05:19,596 INFO 8816 [egg:core] dump config after ready, 4ms
+2021-01-18 19:00:58,723 WARN 8816 [ClusterClient:Watcher] follower closed, and try to init it again
+2021-01-18 19:01:19,711 INFO 29652 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:01:19,737 INFO 29652 [egg-multipart] stream mode enable
+2021-01-18 19:01:20,041 INFO 29652 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:01:20,145 INFO 29652 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:01:20,147 INFO 29652 [egg-security] use methodnoallow middleware
+2021-01-18 19:01:20,147 INFO 29652 [egg-security] use noopen middleware
+2021-01-18 19:01:20,148 INFO 29652 [egg-security] use nosniff middleware
+2021-01-18 19:01:20,149 INFO 29652 [egg-security] use xssProtection middleware
+2021-01-18 19:01:20,149 INFO 29652 [egg-security] use xframe middleware
+2021-01-18 19:01:20,150 INFO 29652 [egg-security] use dta middleware
+2021-01-18 19:01:20,150 INFO 29652 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:01:20,157 INFO 29652 [egg:core] dump config after load, 3ms
+2021-01-18 19:01:20,163 INFO 29652 [egg-mongoose] starting...
+2021-01-18 19:01:20,185 INFO 29652 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:01:20,186 INFO 29652 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:01:20,188 INFO 29652 [egg-watcher:application] watcher start success
+2021-01-18 19:01:20,195 INFO 29652 [egg:core] dump config after ready, 5ms
+2021-01-18 19:01:21,048 INFO 26228 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:01:21,075 INFO 26228 [egg-multipart] stream mode enable
+2021-01-18 19:01:21,382 INFO 26228 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:01:21,478 INFO 26228 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:01:21,480 INFO 26228 [egg-security] use methodnoallow middleware
+2021-01-18 19:01:21,481 INFO 26228 [egg-security] use noopen middleware
+2021-01-18 19:01:21,482 INFO 26228 [egg-security] use nosniff middleware
+2021-01-18 19:01:21,482 INFO 26228 [egg-security] use xssProtection middleware
+2021-01-18 19:01:21,483 INFO 26228 [egg-security] use xframe middleware
+2021-01-18 19:01:21,483 INFO 26228 [egg-security] use dta middleware
+2021-01-18 19:01:21,483 INFO 26228 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:01:21,491 INFO 26228 [egg:core] dump config after load, 3ms
+2021-01-18 19:01:21,498 INFO 26228 [egg-mongoose] starting...
+2021-01-18 19:01:21,521 INFO 26228 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:01:21,522 INFO 26228 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:01:21,524 INFO 26228 [egg-watcher:application] watcher start success
+2021-01-18 19:01:21,530 INFO 26228 [egg:core] dump config after ready, 4ms
+2021-01-18 19:14:09,132 INFO 20992 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:14:09,158 INFO 20992 [egg-multipart] stream mode enable
+2021-01-18 19:14:09,437 INFO 20992 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:14:09,525 INFO 20992 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:14:09,527 INFO 20992 [egg-security] use methodnoallow middleware
+2021-01-18 19:14:09,528 INFO 20992 [egg-security] use noopen middleware
+2021-01-18 19:14:09,529 INFO 20992 [egg-security] use nosniff middleware
+2021-01-18 19:14:09,529 INFO 20992 [egg-security] use xssProtection middleware
+2021-01-18 19:14:09,529 INFO 20992 [egg-security] use xframe middleware
+2021-01-18 19:14:09,530 INFO 20992 [egg-security] use dta middleware
+2021-01-18 19:14:09,530 INFO 20992 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:14:09,540 INFO 20992 [egg:core] dump config after load, 6ms
+2021-01-18 19:14:09,544 INFO 20992 [egg-mongoose] starting...
+2021-01-18 19:14:09,569 INFO 20992 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:14:09,570 INFO 20992 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:14:09,572 INFO 20992 [egg-watcher:application] watcher start success
+2021-01-18 19:14:09,579 INFO 20992 [egg:core] dump config after ready, 5ms
+2021-01-18 19:15:05,538 INFO 29604 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:15:05,563 INFO 29604 [egg-multipart] stream mode enable
+2021-01-18 19:15:05,849 INFO 29604 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:15:05,937 INFO 29604 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:15:05,939 INFO 29604 [egg-security] use methodnoallow middleware
+2021-01-18 19:15:05,939 INFO 29604 [egg-security] use noopen middleware
+2021-01-18 19:15:05,940 INFO 29604 [egg-security] use nosniff middleware
+2021-01-18 19:15:05,940 INFO 29604 [egg-security] use xssProtection middleware
+2021-01-18 19:15:05,941 INFO 29604 [egg-security] use xframe middleware
+2021-01-18 19:15:05,941 INFO 29604 [egg-security] use dta middleware
+2021-01-18 19:15:05,941 INFO 29604 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:15:05,949 INFO 29604 [egg:core] dump config after load, 4ms
+2021-01-18 19:15:05,953 INFO 29604 [egg-mongoose] starting...
+2021-01-18 19:15:05,976 INFO 29604 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:15:05,977 INFO 29604 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:15:05,979 INFO 29604 [egg-watcher:application] watcher start success
+2021-01-18 19:15:05,986 INFO 29604 [egg:core] dump config after ready, 6ms
+2021-01-18 19:18:26,744 INFO 11236 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:18:26,770 INFO 11236 [egg-multipart] stream mode enable
+2021-01-18 19:18:27,062 INFO 11236 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:18:27,152 INFO 11236 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:18:27,153 INFO 11236 [egg-security] use methodnoallow middleware
+2021-01-18 19:18:27,154 INFO 11236 [egg-security] use noopen middleware
+2021-01-18 19:18:27,155 INFO 11236 [egg-security] use nosniff middleware
+2021-01-18 19:18:27,155 INFO 11236 [egg-security] use xssProtection middleware
+2021-01-18 19:18:27,155 INFO 11236 [egg-security] use xframe middleware
+2021-01-18 19:18:27,156 INFO 11236 [egg-security] use dta middleware
+2021-01-18 19:18:27,156 INFO 11236 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:18:27,163 INFO 11236 [egg:core] dump config after load, 3ms
+2021-01-18 19:18:27,167 INFO 11236 [egg-mongoose] starting...
+2021-01-18 19:18:27,190 INFO 11236 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:18:27,191 INFO 11236 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:18:27,193 INFO 11236 [egg-watcher:application] watcher start success
+2021-01-18 19:18:27,200 INFO 11236 [egg:core] dump config after ready, 5ms
+2021-01-18 19:19:18,553 INFO 26012 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:19:18,579 INFO 26012 [egg-multipart] stream mode enable
+2021-01-18 19:19:18,870 INFO 26012 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:19:18,961 INFO 26012 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:19:18,963 INFO 26012 [egg-security] use methodnoallow middleware
+2021-01-18 19:19:18,963 INFO 26012 [egg-security] use noopen middleware
+2021-01-18 19:19:18,964 INFO 26012 [egg-security] use nosniff middleware
+2021-01-18 19:19:18,964 INFO 26012 [egg-security] use xssProtection middleware
+2021-01-18 19:19:18,965 INFO 26012 [egg-security] use xframe middleware
+2021-01-18 19:19:18,965 INFO 26012 [egg-security] use dta middleware
+2021-01-18 19:19:18,965 INFO 26012 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:19:18,973 INFO 26012 [egg:core] dump config after load, 3ms
+2021-01-18 19:19:18,977 INFO 26012 [egg-mongoose] starting...
+2021-01-18 19:19:18,999 INFO 26012 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:19:19,000 INFO 26012 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:19:19,002 INFO 26012 [egg-watcher:application] watcher start success
+2021-01-18 19:19:19,009 INFO 26012 [egg:core] dump config after ready, 6ms
+2021-01-18 19:19:36,999 INFO 20152 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:19:37,024 INFO 20152 [egg-multipart] stream mode enable
+2021-01-18 19:19:37,308 INFO 20152 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:19:37,400 INFO 20152 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:19:37,402 INFO 20152 [egg-security] use methodnoallow middleware
+2021-01-18 19:19:37,402 INFO 20152 [egg-security] use noopen middleware
+2021-01-18 19:19:37,403 INFO 20152 [egg-security] use nosniff middleware
+2021-01-18 19:19:37,403 INFO 20152 [egg-security] use xssProtection middleware
+2021-01-18 19:19:37,404 INFO 20152 [egg-security] use xframe middleware
+2021-01-18 19:19:37,404 INFO 20152 [egg-security] use dta middleware
+2021-01-18 19:19:37,404 INFO 20152 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:19:37,412 INFO 20152 [egg:core] dump config after load, 4ms
+2021-01-18 19:19:37,415 INFO 20152 [egg-mongoose] starting...
+2021-01-18 19:19:37,438 INFO 20152 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:19:37,439 INFO 20152 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:19:37,441 INFO 20152 [egg-watcher:application] watcher start success
+2021-01-18 19:19:37,447 INFO 20152 [egg:core] dump config after ready, 5ms
+2021-01-18 19:20:13,633 INFO 19120 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:20:13,660 INFO 19120 [egg-multipart] stream mode enable
+2021-01-18 19:20:13,990 INFO 19120 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:20:14,086 INFO 19120 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:20:14,088 INFO 19120 [egg-security] use methodnoallow middleware
+2021-01-18 19:20:14,089 INFO 19120 [egg-security] use noopen middleware
+2021-01-18 19:20:14,089 INFO 19120 [egg-security] use nosniff middleware
+2021-01-18 19:20:14,090 INFO 19120 [egg-security] use xssProtection middleware
+2021-01-18 19:20:14,090 INFO 19120 [egg-security] use xframe middleware
+2021-01-18 19:20:14,091 INFO 19120 [egg-security] use dta middleware
+2021-01-18 19:20:14,091 INFO 19120 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:20:14,098 INFO 19120 [egg:core] dump config after load, 3ms
+2021-01-18 19:20:14,102 INFO 19120 [egg-mongoose] starting...
+2021-01-18 19:20:14,124 INFO 19120 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:20:14,125 INFO 19120 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:20:14,127 INFO 19120 [egg-watcher:application] watcher start success
+2021-01-18 19:20:14,136 INFO 19120 [egg:core] dump config after ready, 7ms
+2021-01-18 19:21:45,798 INFO 16692 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:21:45,825 INFO 16692 [egg-multipart] stream mode enable
+2021-01-18 19:21:46,114 INFO 16692 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:21:46,209 INFO 16692 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:21:46,211 INFO 16692 [egg-security] use methodnoallow middleware
+2021-01-18 19:21:46,211 INFO 16692 [egg-security] use noopen middleware
+2021-01-18 19:21:46,212 INFO 16692 [egg-security] use nosniff middleware
+2021-01-18 19:21:46,213 INFO 16692 [egg-security] use xssProtection middleware
+2021-01-18 19:21:46,213 INFO 16692 [egg-security] use xframe middleware
+2021-01-18 19:21:46,213 INFO 16692 [egg-security] use dta middleware
+2021-01-18 19:21:46,213 INFO 16692 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:21:46,222 INFO 16692 [egg:core] dump config after load, 4ms
+2021-01-18 19:21:46,226 INFO 16692 [egg-mongoose] starting...
+2021-01-18 19:21:46,250 INFO 16692 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:21:46,251 INFO 16692 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:21:46,252 INFO 16692 [egg-watcher:application] watcher start success
+2021-01-18 19:21:46,259 INFO 16692 [egg:core] dump config after ready, 5ms
+2021-01-18 19:27:14,570 INFO 26128 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:27:14,604 INFO 26128 [egg-multipart] stream mode enable
+2021-01-18 19:27:14,935 INFO 26128 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:27:15,032 INFO 26128 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:27:15,034 INFO 26128 [egg-security] use methodnoallow middleware
+2021-01-18 19:27:15,035 INFO 26128 [egg-security] use noopen middleware
+2021-01-18 19:27:15,035 INFO 26128 [egg-security] use nosniff middleware
+2021-01-18 19:27:15,036 INFO 26128 [egg-security] use xssProtection middleware
+2021-01-18 19:27:15,036 INFO 26128 [egg-security] use xframe middleware
+2021-01-18 19:27:15,037 INFO 26128 [egg-security] use dta middleware
+2021-01-18 19:27:15,037 INFO 26128 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:27:15,065 INFO 26128 [egg:core] dump config after load, 4ms
+2021-01-18 19:27:15,069 INFO 26128 [egg-mongoose] starting...
+2021-01-18 19:27:15,089 INFO 26128 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:27:15,090 INFO 26128 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:27:15,096 INFO 26128 [egg-watcher:application] watcher start success
+2021-01-18 19:27:15,102 INFO 26128 [egg:core] dump config after ready, 5ms
+2021-01-18 19:28:23,681 INFO 4720 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:28:23,706 INFO 4720 [egg-multipart] stream mode enable
+2021-01-18 19:28:23,984 INFO 4720 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:28:24,071 INFO 4720 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:28:24,073 INFO 4720 [egg-security] use methodnoallow middleware
+2021-01-18 19:28:24,074 INFO 4720 [egg-security] use noopen middleware
+2021-01-18 19:28:24,075 INFO 4720 [egg-security] use nosniff middleware
+2021-01-18 19:28:24,076 INFO 4720 [egg-security] use xssProtection middleware
+2021-01-18 19:28:24,076 INFO 4720 [egg-security] use xframe middleware
+2021-01-18 19:28:24,077 INFO 4720 [egg-security] use dta middleware
+2021-01-18 19:28:24,077 INFO 4720 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:28:24,101 INFO 4720 [egg:core] dump config after load, 4ms
+2021-01-18 19:28:24,108 INFO 4720 [egg-mongoose] starting...
+2021-01-18 19:28:24,131 INFO 4720 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:28:24,132 INFO 4720 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:28:24,134 INFO 4720 [egg-watcher:application] watcher start success
+2021-01-18 19:28:24,142 INFO 4720 [egg:core] dump config after ready, 7ms
+2021-01-18 19:28:47,544 INFO 20784 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:28:47,571 INFO 20784 [egg-multipart] stream mode enable
+2021-01-18 19:28:47,872 INFO 20784 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:28:47,976 INFO 20784 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:28:47,979 INFO 20784 [egg-security] use methodnoallow middleware
+2021-01-18 19:28:47,979 INFO 20784 [egg-security] use noopen middleware
+2021-01-18 19:28:47,980 INFO 20784 [egg-security] use nosniff middleware
+2021-01-18 19:28:47,980 INFO 20784 [egg-security] use xssProtection middleware
+2021-01-18 19:28:47,981 INFO 20784 [egg-security] use xframe middleware
+2021-01-18 19:28:47,981 INFO 20784 [egg-security] use dta middleware
+2021-01-18 19:28:47,981 INFO 20784 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:28:48,008 INFO 20784 [egg:core] dump config after load, 4ms
+2021-01-18 19:28:48,012 INFO 20784 [egg-mongoose] starting...
+2021-01-18 19:28:48,036 INFO 20784 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:28:48,037 INFO 20784 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:28:48,038 INFO 20784 [egg-watcher:application] watcher start success
+2021-01-18 19:28:48,045 INFO 20784 [egg:core] dump config after ready, 5ms
+2021-01-18 19:30:36,079 INFO 27908 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\lpz\\Projects\\youtubeclone-egg\\logs\\youtubeclone-egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"youtubeclone-egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2021-01-18 19:30:36,107 INFO 27908 [egg-multipart] stream mode enable
+2021-01-18 19:30:36,411 INFO 27908 [egg-mongoose] connecting mongodb://127.0.0.1/youtube-clone
+2021-01-18 19:30:36,501 INFO 27908 [egg-static] starting static serve /public/ -> C:\Users\lpz\Projects\youtubeclone-egg\app\public
+2021-01-18 19:30:36,503 INFO 27908 [egg-security] use methodnoallow middleware
+2021-01-18 19:30:36,503 INFO 27908 [egg-security] use noopen middleware
+2021-01-18 19:30:36,504 INFO 27908 [egg-security] use nosniff middleware
+2021-01-18 19:30:36,504 INFO 27908 [egg-security] use xssProtection middleware
+2021-01-18 19:30:36,505 INFO 27908 [egg-security] use xframe middleware
+2021-01-18 19:30:36,505 INFO 27908 [egg-security] use dta middleware
+2021-01-18 19:30:36,505 INFO 27908 [egg-security] compose 6 middlewares into one security middleware
+2021-01-18 19:30:36,530 INFO 27908 [egg:core] dump config after load, 3ms
+2021-01-18 19:30:36,534 INFO 27908 [egg-mongoose] starting...
+2021-01-18 19:30:36,556 INFO 27908 [egg-mongoose] mongodb://127.0.0.1/youtube-clone connected successfully
+2021-01-18 19:30:36,557 INFO 27908 [egg-mongoose] instance[0] start successfully
+2021-01-18 19:30:36,559 INFO 27908 [egg-watcher:application] watcher start success
+2021-01-18 19:30:36,566 INFO 27908 [egg:core] dump config after ready, 5ms
