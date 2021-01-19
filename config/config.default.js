@@ -7,10 +7,17 @@ exports.security = {
   }
 }
 
+exports.jwt = {
+  secret: '67ef887c-e16d-4ec7-827f-0b73010a2889',
+  maxAge: '7d'
+}
+
 exports.mongoose = {
   client: {
     url: 'mongodb://127.0.0.1/youtube-clone',
-    options: {},
+    options: {
+      useUnifiedTopology: true
+    },
     plugins: []
   }
 }

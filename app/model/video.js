@@ -1,38 +1,27 @@
-const { md5 } = require("../extend/helper")
-
 module.exports = app => {
   const mongoose = app.mongoose
   const Schema = mongoose.Schema
 
   const userSchema = new Schema({
-    username: { // 用户名
+    title: { // 视频标题
       type: String,
       required: true
     },
-    email: { // 邮箱
+    description: { // 视频介绍
       type: String,
       required: true
     },
-    password: { // 密码
+    url: { // 视频地址
       type: String,
-      set: v => md5(v),
       required: true
     },
-    avatar: { // 头像
+    thumbnail: { // 视频缩略图
       type: String,
-      default: ''
+      required: true
     },
-    cover: {
-      type: String, // 封面
-      default: ''
-    },
-    channelDescription: { // 频道介绍
-      type: String,
-      default: ''
-    },
-    subscriptions: {
-      type: [mongoose.ObjectId],
-      default: () => []
+    author: {
+      type: String, // 视频作者
+      required: true
     },
     createdAt: { // 创建时间
       type: Date,
@@ -44,5 +33,5 @@ module.exports = app => {
     }
   })
 
-  return mongoose.model('User', userSchema)
+  return mongoose.model('Video', userSchema)
 }

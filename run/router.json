@@ -46,6 +46,7 @@
     "path": "/api/v1/auth/me",
     "regexp": "/^\\/api\\/v1\\/auth\\/me(?:\\/(?=$))?$/",
     "stack": [
+      "anonymous",
       "wrappedController"
     ]
   }

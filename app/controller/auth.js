@@ -63,26 +63,55 @@ class AuthController extends Controller {
     // 生成 token
     const token = jwt.sign({
       userId: user._id
-    }, this.config.keys)
+    }, this.config.jwt.secret)
 
     ctx.body = {
       user: {
         email: user.email,
         token,
         username: user.username,
-        bio: user.bio,
-        image: user.image
+        channelDescription: user.channelDescription,
+        avatar: user.avatar
       }
     }
   }
 
   async login() {
     this.ctx.validate(loginRule, this.ctx.request.body)
-    this.ctx.body = 'login'
+    const { User } = this.ctx.model
+    const user = await User.findOne({ email: this.ctx.request.body.user.email })
+    if (!user) {
+      return this.ctx.throw(422, '用户不存在')
+    }
+    if (this.ctx.helper.md5(this.ctx.request.body.user.password) !== user.password) {
+      return this.ctx.throw(422, '密码错误')
+    }
+    const token = jwt.sign({
+      userId: user._id
+    }, this.config.jwt.secret)
+
+    this.ctx.body = {
+      user: {
+        email: user.email,
+        token,
+        username: user.username,
+        channelDescription: user.bio,
+        avatar: user.avatar
+      }
+    }
   }
 
   async me() {
-    this.ctx.body = 'me'
+    const user = this.ctx.user
+    this.ctx.body = {
+      user: {
+        email: user.email,
+        username: user.username,
+        channelDescription: user.channelDescription,
+        avatar: user.avatar,
+        token: this.ctx.request.header.authorization
+      }
+    }
   }
 }
 

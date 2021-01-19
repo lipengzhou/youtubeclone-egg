@@ -190,6 +190,7 @@
       "client": {
         "url": "mongodb://127.0.0.1/youtube-clone",
         "options": {
+          "useUnifiedTopology": true,
           "useNewUrlParser": true
         },
         "plugins": []
@@ -328,6 +329,10 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
+    "jwt": {
+      "secret": "<String len: 36>",
+      "maxAge": "7d"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares",

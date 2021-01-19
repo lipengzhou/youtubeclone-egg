@@ -54,10 +54,16 @@
       "checkAddress": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
+  "jwt": {
+    "secret": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js",
+    "maxAge": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js"
+  },
   "mongoose": {
     "client": {
       "url": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js",
-      "options": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js",
+      "options": {
+        "useUnifiedTopology": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js"
+      },
       "plugins": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js"
     },
     "url": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-mongoose\\config\\config.default.js",

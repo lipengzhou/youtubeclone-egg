@@ -102,3 +102,82 @@ hostname: DESKTOP-CQ7J378
 pid: 26012
 hostname: DESKTOP-CQ7J378
 
+2021-01-19 14:02:41,101 ERROR 3272 [-/127.0.0.1/-/34ms POST /api/v1/auth/signup] nodejs.ValidationError: User validation failed: password: Cast to string failed for value "Hash {
+  _options: undefined,
+  [Symbol(kHandle)]: BaseObject {},
+  [Symbol(kState)]: { [Symbol(kFinalized)]: false }
+}" at path "password"
+  _options: undefined,
+  [Symbol(kHandle)]: BaseObject {},
+  [Symbol(kState)]: { [Symbol(kFinalized)]: false }
+}" at path "password"
+    at model.Document.invalidate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:2693:32)
+    at model.$set (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:1306:12)
+    at model.$set (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:1010:16)
+    at model.Document (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:150:12)
+    at model.Model (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\model.js:4706:15)
+    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:60:18)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+errors: {"password":{"stringValue":"\"Hash {\n  _options: undefined,\n  [Symbol(kHandle)]: BaseObject {},\n  [Symbol(kState)]: { [Symbol(kFinalized)]: false }\n}\"","kind":"string","value":{},"path":"password","reason":null}}
+_message: "User validation failed"
+pid: 3272
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 15:05:27,527 ERROR 30732 nodejs.ClusterClientNoResponseError: client no response in 553057ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 30732
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 15:06:46,588 ERROR 30732 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 30732
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 15:31:07,726 ERROR 31208 nodejs.unhandledExceptionError: ENOENT: no such file or directory, stat 'C:\Users\lpz\Projects\youtubeclone-egg\app.js'
+    at Object.statSync (fs.js:1086:3)
+    at DevelopmentEventSource._onFsWatchChange (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-watcher\lib\event-sources\development.js:82:16)
+    at FSWatcher.emit (events.js:315:20)
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:186:12)
+errno: -4058
+syscall: "stat"
+code: "ENOENT"
+path: "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\app.js"
+name: "unhandledExceptionError"
+pid: 31208
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 15:32:31,602 ERROR 32152 [-/127.0.0.1/-/20ms GET /api/v1/auth/me] nodejs.Error: next() called multiple times
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:38:45)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:17:11
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:41:56
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+
+pid: 32152
+hostname: DESKTOP-CQ7J378
+
