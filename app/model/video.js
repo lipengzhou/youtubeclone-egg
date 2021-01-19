@@ -11,16 +11,20 @@ module.exports = app => {
       type: String,
       required: true
     },
-    url: { // 视频地址
+    videoId: {
       type: String,
       required: true
     },
-    thumbnail: { // 视频缩略图
-      type: String,
-      required: true
-    },
+    // url: { // 视频地址
+    //   type: String,
+    //   required: true
+    // },
+    // thumbnail: { // 视频缩略图
+    //   type: String,
+    //   required: true
+    // },
     author: {
-      type: String, // 视频作者
+      type: mongoose.ObjectId, // 视频作者
       required: true
     },
     createdAt: { // 创建时间

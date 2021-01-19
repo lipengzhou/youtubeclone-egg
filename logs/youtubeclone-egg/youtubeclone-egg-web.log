@@ -707,3 +707,66 @@ message: "用户不存在"
 pid: 28248
 hostname: DESKTOP-CQ7J378
 
+2021-01-19 16:50:15,199 WARN 31424 [-/127.0.0.1/-/13ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+message: "未授权"
+pid: 31424
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 16:50:51,985 WARN 31424 [-/127.0.0.1/-/1ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+message: "未授权"
+pid: 31424
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 16:51:47,181 WARN 31424 [-/127.0.0.1/-/1ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+message: "未授权"
+pid: 31424
+hostname: DESKTOP-CQ7J378
+

@@ -13,7 +13,7 @@
       "queryName": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js",
     "protocolWhiteList": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-security\\config\\config.default.js",
     "defaultMiddleware": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
@@ -56,7 +56,7 @@
   },
   "jwt": {
     "secret": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js",
-    "maxAge": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js"
+    "expiresIn": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js"
   },
   "mongoose": {
     "client": {
@@ -72,6 +72,15 @@
     "loadModel": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-mongoose\\config\\config.default.js",
     "app": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-mongoose\\config\\config.default.js",
     "agent": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
+  "view": {
+    "defaultViewEngine": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js",
+    "mapping": {
+      ".html": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js"
+    },
+    "root": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.default.js"
   },
   "session": {
     "maxAge": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-session\\config\\config.default.js",
@@ -157,14 +166,15 @@
     "buffer": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-static\\config\\config.default.js",
     "maxFiles": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "view": {
-    "root": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.default.js"
-  },
   "validate": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-validate\\config\\config.default.js",
+  "nunjucks": {
+    "autoescape": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "cors": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-cors\\config\\config.default.js",
   "env": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
   "name": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
   "cookies": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
@@ -186,9 +196,12 @@
     "author": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
     "license": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
+      "@alicloud/pop-core": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
       "egg": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
       "egg-mongoose": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
       "egg-validate": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js",
       "jsonwebtoken": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {

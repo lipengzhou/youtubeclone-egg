@@ -181,3 +181,48 @@ hostname: DESKTOP-CQ7J378
 pid: 32152
 hostname: DESKTOP-CQ7J378
 
+2021-01-19 18:22:43,313 ERROR 25212 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 25212
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 18:31:07,368 ERROR 6736 nodejs.TypeError: Cannot read property 'Code' of undefined
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\controller\video.js:40:52
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+
+pid: 6736
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 18:52:14,330 ERROR 16100 nodejs.AssertionError: Can't find viewEngine for C:\Users\lpz\Projects\youtubeclone-egg\app\view\vod-test.html
+    at ContextView.[contextView#render] (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-view\lib\context_view.js:66:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 16100
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 18:52:26,662 ERROR 4768 nodejs.AssertionError: Can't find viewEngine for C:\Users\lpz\Projects\youtubeclone-egg\app\view\vod-test.html
+    at ContextView.[contextView#render] (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-view\lib\context_view.js:66:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 4768
+hostname: DESKTOP-CQ7J378
+
+2021-01-19 19:54:09,721 ERROR 30820 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 30820
+hostname: DESKTOP-CQ7J378
+

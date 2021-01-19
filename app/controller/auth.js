@@ -63,7 +63,9 @@ class AuthController extends Controller {
     // 生成 token
     const token = jwt.sign({
       userId: user._id
-    }, this.config.jwt.secret)
+    }, this.config.jwt.secret, {
+      expiresIn: this.config.jwt.expiresIn
+    })
 
     ctx.body = {
       user: {
@@ -88,7 +90,9 @@ class AuthController extends Controller {
     }
     const token = jwt.sign({
       userId: user._id
-    }, this.config.jwt.secret)
+    }, this.config.jwt.secret, {
+      expiresIn: this.config.jwt.expiresIn
+    })
 
     this.ctx.body = {
       user: {

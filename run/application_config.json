@@ -13,7 +13,9 @@
       "genid": "<Function v4>"
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "*"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
@@ -106,6 +108,8 @@
         "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\locales",
         "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-validate\\config\\locales",
         "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-mongoose\\config\\locales",
+        "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-cors\\config\\locales",
         "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg\\config\\locales",
         "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\locales"
       ],
@@ -173,11 +177,15 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\app\\view",
+      "root": [
+        "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\app\\view"
+      ],
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
-      "mapping": {}
+      "defaultViewEngine": "nunjucks",
+      "mapping": {
+        ".html": "nunjucks"
+      }
     },
     "validate": {},
     "mongoose": {
@@ -195,6 +203,16 @@
         },
         "plugins": []
       }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "cors": {
+      "origin": "<Function corsOrigin>"
     },
     "env": "local",
     "name": "youtubeclone-egg",
@@ -218,9 +236,12 @@
       "author": "",
       "license": "ISC",
       "dependencies": {
+        "@alicloud/pop-core": "^1.7.10",
         "egg": "^2.29.1",
+        "egg-cors": "^2.2.3",
         "egg-mongoose": "^3.3.1",
         "egg-validate": "^2.0.2",
+        "egg-view-nunjucks": "^2.2.0",
         "jsonwebtoken": "^8.5.1"
       },
       "devDependencies": {
@@ -304,6 +325,7 @@
       "logging": false
     },
     "coreMiddleware": [
+      "cors",
       "meta",
       "siteFile",
       "notfound",
@@ -331,7 +353,7 @@
     "onClientError": null,
     "jwt": {
       "secret": "<String len: 36>",
-      "maxAge": "7d"
+      "expiresIn": "7d"
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
@@ -517,6 +539,31 @@
       "from": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\plugin.js",
       "path": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-mongoose",
       "version": "3.3.1"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\plugin.js",
+      "path": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view-nunjucks",
+      "version": "2.2.0"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\plugin.js",
+      "path": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-cors",
+      "version": "2.2.3"
     }
   }
 }

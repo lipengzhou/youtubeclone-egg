@@ -7,7 +7,7 @@ module.exports = options => {
       return ctx.throw(401, '未授权')
     }
     try {
-      const decoded = jwt.verify(token, options)
+      const decoded = jwt.verify(token, options.secret)
       const user = await ctx.model.User.findById(decoded.userId)
       ctx.user = user
       await next()
