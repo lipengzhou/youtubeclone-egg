@@ -19,32 +19,18 @@ module.exports = app => {
     //   type: String,
     //   required: true
     // },
-    author: {
+    user: {
       type: mongoose.ObjectId, // 视频作者
       required: true,
       ref: 'User'
     },
-    likes: {
-      type: [{
-        like: {
-          type: Number,
-          required: true,
-          enum: [-1, 0, 1]
-        },
-        user: {
-          type: mongoose.ObjectId,
-          required: true
-        },
-        createdAt: { // 创建时间
-          type: Date,
-          default: Date.now
-        },
-        updatedAt: { // 更新时间
-          type: Date,
-          default: Date.now
-        }
-      }],
-      default: () => []
+    likeCount: {
+      type: Number,
+      default: 0
+    },
+    dislikeCount: {
+      type: Number,
+      default: 0
     },
     createdAt: { // 创建时间
       type: Date,

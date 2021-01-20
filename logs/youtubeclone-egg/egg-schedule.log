@@ -385,3 +385,27 @@
 2021-01-20 19:47:45,706 INFO 12580 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2021-01-20 19:47:45,706 INFO 12580 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
 2021-01-20 19:47:45,706 INFO 12580 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-20 19:58:42,227 INFO 34644 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-20 19:58:42,227 INFO 34644 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-20 19:58:42,227 INFO 34644 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-20 19:58:42,687 INFO 29372 [Timer] C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 30677316ms at 2021-01-21 04:30:00.003
+2021-01-20 19:58:42,688 INFO 29372 [Timer] C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 14477312ms at 2021-01-21 00:00:00.000
+2021-01-20 19:58:42,688 INFO 29372 [Timer] C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 14478312ms at 2021-01-21 00:00:01.000
+2021-01-20 19:59:09,628 INFO 28888 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-20 19:59:09,628 INFO 28888 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-20 19:59:09,629 INFO 28888 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-20 19:59:35,938 INFO 33968 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-20 19:59:35,938 INFO 33968 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-20 19:59:35,938 INFO 33968 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-20 20:00:06,049 INFO 22676 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-20 20:00:06,049 INFO 22676 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-20 20:00:06,049 INFO 22676 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-20 20:01:00,720 INFO 30460 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-20 20:01:00,720 INFO 30460 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-20 20:01:00,720 INFO 30460 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-20 20:02:26,857 INFO 13632 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-20 20:02:26,857 INFO 13632 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-20 20:02:26,857 INFO 13632 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2021-01-20 20:02:45,244 INFO 19048 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2021-01-20 20:02:45,244 INFO 19048 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2021-01-20 20:02:45,244 INFO 19048 [egg-schedule]: register schedule C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

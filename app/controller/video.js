@@ -29,7 +29,7 @@ class VideoController extends Controller {
     const body = this.ctx.request.body
     this.ctx.validate(createVideoRule, body)
 
-    body.video.author = this.ctx.user._id
+    body.video.user = this.ctx.user._id
 
     // 更新 vod 视频信息
     await this.app.vodClient.request('UpdateVideoInfo', {
@@ -46,10 +46,24 @@ class VideoController extends Controller {
   }
 
   async video () {
-    const video = await this.ctx.model.Video.findById(this.ctx.params.id).populate('author')
+    const videoId = this.ctx.params.id
+    const video = await this.ctx.model.Video.findById(videoId).populate('user')
     if (!video) {
       return this.ctx.throw(404)
     }
+    // 喜欢数量
+    video.likeCount = await this.ctx.model.VideoLike.countDocuments({
+      video: videoId,
+      like: 1
+    })
+
+    video.dislikeCount = await this.ctx.model.VideoLike.countDocuments({
+      video: videoId,
+      like: -1
+    })
+
+    console.log(video)
+    // 不喜欢数量
     this.ctx.body = video
   }
 
