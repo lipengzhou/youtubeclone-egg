@@ -1,62 +1,82 @@
 const Controller = require('egg').Controller
-const RPCClient = require('@alicloud/pop-core').RPCClient
 
-function initVodClient(accessKeyId, secretAccessKey) {
-  const regionId = 'cn-shanghai' // 点播服务接入区域
-  const client = new RPCClient({
-    accessKeyId,
-    secretAccessKey,
-    endpoint: 'http://vod.' + regionId + '.aliyuncs.com',
-    apiVersion: '2017-03-21'
-  })
-
-  return client
+const createVideoRule = {
+  video: {
+    type: 'object',
+    rule: {
+      Title: {
+        type: 'string',
+        required: true
+      },
+      Description: {
+        type: 'string',
+        required: true
+      },
+      CoverURL: {
+        type: 'string',
+        required: true
+      },
+      videoId: {
+        type: 'string',
+        required: true
+      }
+    }
+  }
 }
 
 class VideoController extends Controller {
   async create() {
-    this.ctx.body = 'video create'
+    const body = this.ctx.request.body
+    this.ctx.validate(createVideoRule, body)
+
+    body.video.author = this.ctx.user._id
+
+    // 更新 vod 视频信息
+    await this.app.vodClient.request('UpdateVideoInfo', {
+      VideoId: body.video.videoId,
+      Title: body.video.Title,
+      Description: body.video.Description
+    })
+
+    // 保存到业务数据库中
+    const video = new this.ctx.model.Video(body.video)
+    await video.save()
+
+    this.ctx.body = video
   }
 
-  async showVodTest() {
-    await this.ctx.render('vod-test.html')
+  async video () {
+    const video = await this.ctx.model.Video.findById(this.ctx.params.id).populate('author')
+    if (!video) {
+      return this.ctx.throw(404)
+    }
+    this.ctx.body = video
   }
 
-  async uploadInfo() {
-    const client = initVodClient(
-      'LTAI4G2AWM6BLgfbzn4j7ag3',
-      'f4XTKJNGyeoMo67WhYMHFLjoEf2Knr'
-    )
+  async createLike () {
+    const body = this.ctx.request.body
+    const VideoLike = this.ctx.model.VideoLike
+    const { videoId } = this.ctx.params
+    const user = this.ctx.user
 
-    const response = await client.request(
-      'CreateUploadVideo',
-      {
-        Title: 'this is a sample',
-        FileName: 'filename.mp4'
-      },
-      {}
-    )
-    this.ctx.body = response
-  }
+    // 根据视频和用户找到点赞记录
+    let videoLike = await VideoLike.findOne({
+      video: videoId,
+      user
+    })
 
-  async getVideo() {
-    const client = initVodClient(
-      'LTAI4G2AWM6BLgfbzn4j7ag3',
-      'f4XTKJNGyeoMo67WhYMHFLjoEf2Knr'
-    )
-    const response = await client.request(
-      'GetVideoInfo',
-      {
-        VideoId: '3bc26712a44441dfba7b399275a5a87b'
-      },
-      {}
-    )
-    this.ctx.body = response
-    // if (response.Video) {
-    //   console.log('Title = ' + response.Video.Title)
-    //   console.log('Description = ' + response.Video.Description)
-    // }
-    // console.log('RequestId = ' + response.RequestId)
+    if (!videoLike) {
+      videoLike = await new VideoLike({
+        like: body.videoLike.like,
+        video: videoId,
+        user: user._id
+      }).save()
+    } else {
+      videoLike.like = body.videoLike.like
+      videoLike.updatedAt = new Date()
+      await videoLike.save()
+    }
+    this.ctx.body = videoLike
   }
 }
 

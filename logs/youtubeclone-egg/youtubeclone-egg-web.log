@@ -1,262 +1,6 @@
-2021-01-18 14:47:03,294 WARN 11504 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
-2021-01-18 14:47:03,296 WARN 11504 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.ForbiddenError: invalid csrf token
+2021-01-20 12:17:23,444 WARN 27860 [-/127.0.0.1/-/48ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
     at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.assertCsrf (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\app\extend\context.js:162:32)
-    at csrf (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:13)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at overrideMethod (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-override\index.js:38:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-message: "invalid csrf token"
-pid: 11504
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:39:54,026 ERROR 24056 [-/127.0.0.1/-/16ms POST /api/v1/auth/signup] nodejs.TypeError: this.ctx.validate is not a function
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-
-pid: 24056
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:41:09,793 WARN 27060 [-/127.0.0.1/-/15ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"username","code":"missing_field"}]
-pid: 27060
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:45:24,787 WARN 28404 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"user.username","code":"missing_field"}]
-pid: 28404
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:45:37,468 WARN 28404 [-/127.0.0.1/-/1ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"user.username","code":"missing_field"}]
-pid: 28404
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:46:10,467 ERROR 28404 [-/127.0.0.1/-/0ms POST /api/v1/auth/signup] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: undefined
-    at Parameter.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\parameter\index.js:106:15)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:12:39)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-
-pid: 28404
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:46:36,497 ERROR 16624 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.TypeError: rule type must be one of number, int, integer, string, id, date, dateTime, datetime, boolean, bool, array, object, enum, email, password, url, but the following type was passed: undefined
-    at Parameter.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\parameter\index.js:106:15)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:12:39)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-
-pid: 16624
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:47:32,282 WARN 10108 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"user.username","code":"missing_field"}]
-pid: 10108
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:48:59,883 WARN 18536 [-/127.0.0.1/-/14ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"user.abc","code":"missing_field"}]
-pid: 18536
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:49:53,969 WARN 24292 [-/127.0.0.1/-/2ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"user.password","code":"missing_field"}]
-pid: 24292
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:50:01,269 WARN 24292 [-/127.0.0.1/-/0ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"user","code":"missing_field"}]
-pid: 24292
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:50:35,580 WARN 24292 [-/127.0.0.1/-/1ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:5:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"should be an email","code":"invalid","field":"user.email"}]
-pid: 24292
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 16:56:34,469 WARN 14320 [-/127.0.0.1/-/2ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:41:14)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"required","field":"user.password","code":"missing_field"}]
-pid: 14320
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 19:18:32,116 ERROR 11236 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.TypeError: Cannot read property 'username' of undefined
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:47:26)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-
-pid: 11236
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 19:19:22,707 ERROR 26012 [-/127.0.0.1/-/12ms POST /api/v1/auth/signup] nodejs.TypeError: Cannot read property 'user' of undefined
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:47:26)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
-    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
-    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
-    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-
-pid: 26012
-hostname: DESKTOP-CQ7J378
-
-2021-01-18 19:20:16,092 WARN 19120 [-/127.0.0.1/-/29ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:50:23)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
@@ -268,13 +12,15 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户名已存在"
-pid: 19120
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 27860
 hostname: DESKTOP-CQ7J378
 
-2021-01-18 19:20:42,968 WARN 19120 [-/127.0.0.1/-/3ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
+2021-01-20 12:18:24,299 WARN 27860 [-/127.0.0.1/-/3ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
     at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:50:23)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
@@ -286,13 +32,15 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户名已存在"
-pid: 19120
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 27860
 hostname: DESKTOP-CQ7J378
 
-2021-01-18 19:20:47,972 WARN 19120 [-/127.0.0.1/-/4ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 邮箱已存在
+2021-01-20 12:19:29,196 WARN 27860 [-/127.0.0.1/-/3ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
     at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:56:23)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
@@ -304,13 +52,15 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "邮箱已存在"
-pid: 19120
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 27860
 hostname: DESKTOP-CQ7J378
 
-2021-01-18 19:20:59,258 WARN 19120 [-/127.0.0.1/-/2ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
+2021-01-20 12:21:20,536 WARN 29672 [-/127.0.0.1/-/40ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
     at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:50:23)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:16:16
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
@@ -322,13 +72,15 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户名已存在"
-pid: 19120
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 29672
 hostname: DESKTOP-CQ7J378
 
-2021-01-18 19:27:18,093 WARN 26128 [-/127.0.0.1/-/26ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
+2021-01-20 12:23:03,506 WARN 21044 [-/127.0.0.1/-/4ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
     at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:51:23)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
@@ -340,85 +92,285 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户名已存在"
-pid: 26128
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 21044
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:02:41,109 ERROR 3272 [-/127.0.0.1/-/34ms POST /api/v1/auth/signup] nodejs.ValidationError: User validation failed: password: Cast to string failed for value "Hash {
-  _options: undefined,
-  [Symbol(kHandle)]: BaseObject {},
-  [Symbol(kState)]: { [Symbol(kFinalized)]: false }
-}" at path "password"
-  _options: undefined,
-  [Symbol(kHandle)]: BaseObject {},
-  [Symbol(kState)]: { [Symbol(kFinalized)]: false }
-}" at path "password"
+2021-01-20 12:23:38,239 WARN 33532 [-/127.0.0.1/-/42ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:16:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 33532
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 12:25:02,725 WARN 33564 [-/127.0.0.1/-/30ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:17:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 33564
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 12:25:26,448 WARN 6676 [-/127.0.0.1/-/32ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:18:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 6676
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 12:26:05,027 WARN 6676 [-/127.0.0.1/-/9ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:18:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 6676
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 12:26:45,714 WARN 6676 [-/127.0.0.1/-/21ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:18:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 6676
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:08:24,048 WARN 18240 [-/127.0.0.1/-/38ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:17:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 18240
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:09:33,035 WARN 8760 [-/127.0.0.1/-/40ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:16:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 8760
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:09:52,933 WARN 20312 [-/127.0.0.1/-/38ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:16:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 20312
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:10:54,636 WARN 30412 [-/127.0.0.1/-/38ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:16:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 30412
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:11:51,433 WARN 22892 [-/127.0.0.1/-/39ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:16:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 22892
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:12:04,433 WARN 34004 [-/127.0.0.1/-/37ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:16:16
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 34004
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:13:00,243 ERROR 12592 [-/127.0.0.1/-/40ms POST /api/v1/videos] nodejs.ValidationError: Video validation failed: videoId: Path `videoId` is required.
     at model.Document.invalidate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:2693:32)
-    at model.$set (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:1306:12)
-    at model.$set (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:1010:16)
-    at model.Document (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:150:12)
-    at model.Model (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\model.js:105:12)
-    at new model (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\model.js:4706:15)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:60:18)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
-    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
-    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
-    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
-    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
-    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
-    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
-errors: {"password":{"stringValue":"\"Hash {\n  _options: undefined,\n  [Symbol(kHandle)]: BaseObject {},\n  [Symbol(kState)]: { [Symbol(kFinalized)]: false }\n}\"","kind":"string","value":{},"path":"password","reason":null}}
-_message: "User validation failed"
-pid: 3272
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:2513:17
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\schematype.js:1240:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+errors: {"videoId":{"name":"ValidatorError","message":"Path `videoId` is required.","properties":{"message":"Path `videoId` is required.","type":"required","path":"videoId"},"kind":"required","path":"videoId"}}
+_message: "Video validation failed"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 12592
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:14:43,036 WARN 16792 [-/127.0.0.1/-/25ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:51:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
-    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
-    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
-    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
-    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
-    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
-    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
-    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
-    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户名已存在"
-pid: 16792
+2021-01-20 14:15:12,739 ERROR 6624 [-/127.0.0.1/-/39ms POST /api/v1/videos] nodejs.ValidationError: Video validation failed: author: Path `author` is required.
+    at model.Document.invalidate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:2693:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:2513:17
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\schematype.js:1240:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+errors: {"author":{"name":"ValidatorError","message":"Path `author` is required.","properties":{"message":"Path `author` is required.","type":"required","path":"author"},"kind":"required","path":"author"}}
+_message: "Video validation failed"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 6624
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:16:57,692 WARN 16792 [-/127.0.0.1/-/2ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: Validation Failed
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at Object.validate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-validate\app\extend\context.js:14:17)
-    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:80:14)
+2021-01-20 14:33:13,431 ERROR 4820 [-/127.0.0.1/-/32ms POST /api/v1/videos] nodejs.AssertionError: must pass "config.accessKeyId"
+    at new RPCClient (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@alicloud\pop-core\lib\rpc.js:108:5)
+    at initVodClient (C:\Users\lpz\Projects\youtubeclone-egg\app\extend\application.js:5:18)
+    at Application.get vodClient [as vodClient] (C:\Users\lpz\Projects\youtubeclone-egg\app\extend\application.js:20:19)
+    at VideoController.create (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\video.js:35:20)
     at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
     at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
     at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
     at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
     at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
     at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-message: "Validation Failed"
-code: "invalid_param"
-errors: [{"message":"should be an email","code":"invalid","field":"user.email"}]
-pid: 16792
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:19:11
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 4820
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:17:35,196 WARN 16792 [-/127.0.0.1/-/2ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: 用户不存在
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:84:28)
+2021-01-20 14:34:28,985 ERROR 1180 [-/127.0.0.1/-/186ms POST /api/v1/videos] nodejs.Forbidden.RAMError: You are not authorized to operate this resource, or this API does not support RAM., URL: http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=UpdateVideoInfo&Description=bb&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=28f72216cbcb472910a9c7c68fceb474&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A34%3A28Z&Title=aa&Version=2017-03-21&VideoId=undefined&Signature=xBssK7y3i5NAyzcw3BTfzOXNiKA%3D
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@alicloud\pop-core\lib\rpc.js:207:19
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async VideoController.create (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\video.js:35:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:19:5
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
     at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
@@ -429,14 +381,21 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户不存在"
-pid: 16792
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+name: "Forbidden.RAMError"
+data: {"RequestId":"089EAEDB-8AC6-453B-82BF-9E50892F2C54","HostId":"vod.cn-shanghai.aliyuncs.com","Code":"Forbidden.RAM","Message":"You are not authorized to operate this resource, or this API does not support RAM.","Recommend":"https://error-center.aliyun.com/status/search?Keyword=Forbidden.RAM&source=PopGw"}
+code: "Forbidden.RAM"
+url: "http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=UpdateVideoInfo&Description=bb&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=28f72216cbcb472910a9c7c68fceb474&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A34%3A28Z&Title=aa&Version=2017-03-21&VideoId=undefined&Signature=xBssK7y3i5NAyzcw3BTfzOXNiKA%3D"
+entry: {"url":"http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=UpdateVideoInfo&Description=bb&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=28f72216cbcb472910a9c7c68fceb474&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A34%3A28Z&Title=aa&Version=2017-03-21&VideoId=undefined&Signature=xBssK7y3i5NAyzcw3BTfzOXNiKA%3D","request":{"headers":{"x-sdk-client":"Node.js(v14.15.1), @alicloud/pop-core: 1.7.10","user-agent":"AlibabaCloud (win32; x64) Node.js/v14.15.1 Core/1.7.10","x-acs-action":"UpdateVideoInfo","x-acs-version":"2017-03-21","host":"vod.cn-shanghai.aliyuncs.com"}},"response":{"statusCode":403,"headers":{"date":"Wed, 20 Jan 2021 06:34:28 GMT","content-type":"application/json;charset=utf-8","content-length":"305","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","x-acs-request-id":"089EAEDB-8AC6-453B-82BF-9E50892F2C54"}}}
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 1180
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:17:54,593 WARN 16792 [-/127.0.0.1/-/3ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: 密码错误
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:87:28)
+2021-01-20 14:36:17,498 ERROR 1180 [-/127.0.0.1/-/95ms POST /api/v1/videos] nodejs.InvalidVideo.NotFoundError: The video does not exist., URL: http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=UpdateVideoInfo&Description=bb&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=7337dfcf917c12499b64cb3f79659cc6&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A36%3A17Z&Title=aa&Version=2017-03-21&VideoId=undefined&Signature=Hf11puWO6Kwr9tfJqoUZ405W1ZM%3D
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@alicloud\pop-core\lib\rpc.js:207:19
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async VideoController.create (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\video.js:35:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:19:5
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
     at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
@@ -447,14 +406,42 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "密码错误"
-pid: 16792
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+name: "InvalidVideo.NotFoundError"
+data: {"RequestId":"ACCC3C38-7BB0-4118-90C2-1C2FD0036014","HostId":"vod.cn-shanghai.aliyuncs.com","Code":"InvalidVideo.NotFound","Message":"The video does not exist.","Recommend":"https://error-center.aliyun.com/status/search?Keyword=InvalidVideo.NotFound&source=PopGw"}
+code: "InvalidVideo.NotFound"
+url: "http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=UpdateVideoInfo&Description=bb&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=7337dfcf917c12499b64cb3f79659cc6&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A36%3A17Z&Title=aa&Version=2017-03-21&VideoId=undefined&Signature=Hf11puWO6Kwr9tfJqoUZ405W1ZM%3D"
+entry: {"url":"http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=UpdateVideoInfo&Description=bb&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=7337dfcf917c12499b64cb3f79659cc6&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A36%3A17Z&Title=aa&Version=2017-03-21&VideoId=undefined&Signature=Hf11puWO6Kwr9tfJqoUZ405W1ZM%3D","request":{"headers":{"x-sdk-client":"Node.js(v14.15.1), @alicloud/pop-core: 1.7.10","user-agent":"AlibabaCloud (win32; x64) Node.js/v14.15.1 Core/1.7.10","x-acs-action":"UpdateVideoInfo","x-acs-version":"2017-03-21","host":"vod.cn-shanghai.aliyuncs.com"}},"response":{"statusCode":404,"headers":{"date":"Wed, 20 Jan 2021 06:36:17 GMT","content-type":"application/json;charset=utf-8","content-length":"264","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","x-acs-request-id":"ACCC3C38-7BB0-4118-90C2-1C2FD0036014"}}}
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 1180
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:18:01,594 WARN 16792 [-/127.0.0.1/-/2ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: 密码错误
+2021-01-20 14:39:41,551 WARN 8688 [-/::1/-/1ms GET /api/v1/vod/CreateUploadVideo?Title=%E6%B5%8B%E8%AF%951&FileName=18+%E4%B8%AD%E9%97%B4%E4%BB%B6-%E5%88%86%E7%B1%BB-%E8%B7%AF%E7%94%B1%E5%99%A8%E7%BA%A7%E5%88%AB%E4%B8%AD%E9%97%B4%E4%BB%B6.mp4] nodejs.UnauthorizedError: 未授权
     at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:87:28)
+    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:7:23
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+message: "未授权"
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5501","vary":"Origin"}
+pid: 8688
+hostname: DESKTOP-CQ7J378
+
+2021-01-20 14:51:44,741 ERROR 3088 [-/::1/-/44ms GET /api/v1/vod/GetVideoInfo] nodejs.MissingVideoIdError: VideoId is mandatory for this action., URL: http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=GetVideoInfo&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=d2e7c5bed448672728408cfc98339f25&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A51%3A44Z&Version=2017-03-21&Signature=Dym%2FLZu8aOxlD731eVYWGC346KI%3D
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@alicloud\pop-core\lib\rpc.js:207:19
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async VodController.index (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\vod.js:5:21)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
     at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
@@ -462,17 +449,23 @@ hostname: DESKTOP-CQ7J378
     at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
     at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
     at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:41:56
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "密码错误"
-pid: 16792
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+name: "MissingVideoIdError"
+data: {"RequestId":"40E879AD-08A1-428D-8789-1AB1BEFCEDA4","Message":"VideoId is mandatory for this action.","Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingVideoId&source=PopGw","HostId":"vod.cn-shanghai.aliyuncs.com","Code":"MissingVideoId"}
+code: "MissingVideoId"
+url: "http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=GetVideoInfo&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=d2e7c5bed448672728408cfc98339f25&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A51%3A44Z&Version=2017-03-21&Signature=Dym%2FLZu8aOxlD731eVYWGC346KI%3D"
+entry: {"url":"http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=GetVideoInfo&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=d2e7c5bed448672728408cfc98339f25&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A51%3A44Z&Version=2017-03-21&Signature=Dym%2FLZu8aOxlD731eVYWGC346KI%3D","request":{"headers":{"x-sdk-client":"Node.js(v14.15.1), @alicloud/pop-core: 1.7.10","user-agent":"AlibabaCloud (win32; x64) Node.js/v14.15.1 Core/1.7.10","x-acs-action":"GetVideoInfo","x-acs-version":"2017-03-21","host":"vod.cn-shanghai.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Wed, 20 Jan 2021 06:51:44 GMT","content-type":"application/json;charset=utf-8","content-length":"262","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","x-acs-request-id":"40E879AD-08A1-428D-8789-1AB1BEFCEDA4"}}}
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5501","vary":"Origin"}
+pid: 3088
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:18:58,491 WARN 16792 [-/127.0.0.1/-/2ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: 用户不存在
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:84:28)
+2021-01-20 14:53:01,574 ERROR 3088 [-/::1/-/45ms GET /api/v1/vod/GetVideoInfo] nodejs.MissingVideoIdError: VideoId is mandatory for this action., URL: http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=GetVideoInfo&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=ba9cefaa867c1f1fa63394eb81899b31&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A53%3A01Z&Version=2017-03-21&Signature=wTAwpyck%2F6dLms2lYqFvexz%2FHXY%3D
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@alicloud\pop-core\lib\rpc.js:207:19
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async VodController.index (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\vod.js:5:21)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
     at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
@@ -480,161 +473,34 @@ hostname: DESKTOP-CQ7J378
     at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
     at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
     at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:41:56
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户不存在"
-pid: 16792
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+name: "MissingVideoIdError"
+data: {"RequestId":"CE510794-7B90-48AF-8E40-C98904F6AD7F","Message":"VideoId is mandatory for this action.","Recommend":"https://error-center.aliyun.com/status/search?Keyword=MissingVideoId&source=PopGw","HostId":"vod.cn-shanghai.aliyuncs.com","Code":"MissingVideoId"}
+code: "MissingVideoId"
+url: "http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=GetVideoInfo&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=ba9cefaa867c1f1fa63394eb81899b31&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A53%3A01Z&Version=2017-03-21&Signature=wTAwpyck%2F6dLms2lYqFvexz%2FHXY%3D"
+entry: {"url":"http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=LTAI4GJ1kZKf4y8P39PrhjqQ&Action=GetVideoInfo&Format=JSON&SignatureMethod=HMAC-SHA1&SignatureNonce=ba9cefaa867c1f1fa63394eb81899b31&SignatureVersion=1.0&Timestamp=2021-01-20T06%3A53%3A01Z&Version=2017-03-21&Signature=wTAwpyck%2F6dLms2lYqFvexz%2FHXY%3D","request":{"headers":{"x-sdk-client":"Node.js(v14.15.1), @alicloud/pop-core: 1.7.10","user-agent":"AlibabaCloud (win32; x64) Node.js/v14.15.1 Core/1.7.10","x-acs-action":"GetVideoInfo","x-acs-version":"2017-03-21","host":"vod.cn-shanghai.aliyuncs.com"}},"response":{"statusCode":400,"headers":{"date":"Wed, 20 Jan 2021 06:53:01 GMT","content-type":"application/json;charset=utf-8","content-length":"262","connection":"keep-alive","access-control-allow-origin":"*","access-control-allow-methods":"POST, GET, OPTIONS","access-control-allow-headers":"X-Requested-With, X-Sequence, _aop_secret, _aop_signature","access-control-max-age":"172800","x-acs-request-id":"CE510794-7B90-48AF-8E40-C98904F6AD7F"}}}
+headers: {"Access-Control-Allow-Origin":"http://127.0.0.1:5501","vary":"Origin"}
+pid: 3088
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 14:19:07,992 WARN 16792 [-/127.0.0.1/-/2ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: 密码错误
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:87:28)
+2021-01-20 17:50:22,691 ERROR 14936 [-/127.0.0.1/-/3ms GET /api/v1/videos/123] nodejs.CastError: Cast to ObjectId failed for value "123" at path "_id" for model "Video"
+    at model.Query.exec (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\query.js:4450:15)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
-    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
-    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
-    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
-    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
-    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
-    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
-    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
-    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "密码错误"
-pid: 16792
+messageFormat: undefined
+stringValue: "\"123\""
+kind: "ObjectId"
+value: "123"
+path: "_id"
+reason: {}
+pid: 14936
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 15:13:00,587 WARN 31840 [-/127.0.0.1/-/4ms GET /api/v1/auth/me] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:5:23
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 31840
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 15:27:51,486 WARN 29736 [-/127.0.0.1/-/3ms GET /api/v1/auth/me] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 29736
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 15:28:21,588 WARN 28860 [-/127.0.0.1/-/6ms GET /api/v1/auth/me] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 28860
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 15:28:22,980 WARN 28860 [-/127.0.0.1/-/1ms GET /api/v1/auth/me] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 28860
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 15:28:30,888 WARN 31740 [-/127.0.0.1/-/4ms GET /api/v1/auth/me] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 31740
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 15:31:19,586 WARN 16616 [-/127.0.0.1/-/5ms GET /api/v1/auth/me] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 16616
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 15:32:31,815 ERROR 32152 [-/127.0.0.1/-/20ms GET /api/v1/auth/me] nodejs.Error: next() called multiple times
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:38:45)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:17:11
+2021-01-20 18:07:12,317 ERROR 28404 [-/127.0.0.1/-/19ms GET /api/v1/videos/6007cf95eadd7621f09e61fb] nodejs.TypeError: video.populate(...).excute is not a function
+    at VideoController.video (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\video.js:50:30)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
     at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
@@ -646,127 +512,33 @@ hostname: DESKTOP-CQ7J378
     at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:41:56
     at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
     at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:56:32)
 
-pid: 32152
+pid: 28404
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 15:43:25,093 WARN 28248 [-/127.0.0.1/-/5ms GET /api/v1/auth/me] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 28248
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 15:44:50,183 WARN 28248 [-/127.0.0.1/-/3ms POST /api/v1/auth/signup] nodejs.UnprocessableEntityError: 用户名已存在
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.signup (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:51:23)
+2021-01-20 19:39:41,220 ERROR 27124 [-/127.0.0.1/-/33ms POST /api/v1/videos/123/likes] nodejs.CastError: Cast to ObjectId failed for value "123" at path "video" for model "VideoLike"
+    at model.Query.exec (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\query.js:4358:21)
+    at model.Query.Query.then (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\query.js:4450:15)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
-    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
-    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
-    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
-    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
-    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
-    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
-    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
-    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户名已存在"
-pid: 28248
+messageFormat: undefined
+stringValue: "\"123\""
+kind: "ObjectId"
+value: "123"
+path: "video"
+reason: {}
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 27124
 hostname: DESKTOP-CQ7J378
 
-2021-01-19 15:45:15,384 WARN 28248 [-/127.0.0.1/-/2ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: 用户不存在
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:84:28)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
-    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
-    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
-    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
-    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
-    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
-    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
-    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
-    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
-    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
-message: "用户不存在"
-pid: 28248
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 16:50:15,199 WARN 31424 [-/127.0.0.1/-/13ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 31424
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 16:50:51,985 WARN 31424 [-/127.0.0.1/-/1ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 31424
-hostname: DESKTOP-CQ7J378
-
-2021-01-19 16:51:47,181 WARN 31424 [-/127.0.0.1/-/1ms POST /api/v1/videos] nodejs.UnauthorizedError: 未授权
-    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
-    at C:\Users\lpz\Projects\youtubeclone-egg\app\middleware\auth.js:15:16
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-    at dta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\dta.js:12:12)
-    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
-message: "未授权"
-pid: 31424
+2021-01-20 19:41:58,303 ERROR 6888 [-/127.0.0.1/-/9ms POST /api/v1/videos/6007cf95eadd7621f09e61fb/likes] nodejs.ValidationError: VideoLike validation failed: like: `12` is not a valid enum value for path `like`.
+    at model.Document.invalidate (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:2693:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\document.js:2513:17
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\mongoose\lib\schematype.js:1240:9
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)
+errors: {"like":{"name":"ValidatorError","message":"`12` is not a valid enum value for path `like`.","properties":{"message":"`12` is not a valid enum value for path `like`.","type":"enum","enumValues":[-1,0,1],"path":"like","value":12},"kind":"enum","path":"like","value":12}}
+_message: "VideoLike validation failed"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 6888
 hostname: DESKTOP-CQ7J378
 

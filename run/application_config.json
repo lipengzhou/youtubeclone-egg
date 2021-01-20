@@ -355,6 +355,10 @@
       "secret": "<String len: 36>",
       "expiresIn": "7d"
     },
+    "vod": {
+      "accessKeyId": "LTAI4GJ1kZKf4y8P39PrhjqQ",
+      "secretAccessKey": "<String len: 30>"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares",

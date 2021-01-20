@@ -29,3 +29,8 @@ exports.view = {
     '.html': 'nunjucks'
   }
 }
+
+exports.vod = {
+  accessKeyId: process.env.VOD_ACCESS_KEY,
+  secretAccessKey: process.env.VOD_SECRET_KEY
+}

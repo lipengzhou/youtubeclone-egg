@@ -82,6 +82,10 @@
     "cache": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "vod": {
+    "accessKeyId": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js",
+    "secretAccessKey": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-session\\config\\config.default.js",
     "key": "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\node_modules\\egg-session\\config\\config.default.js",

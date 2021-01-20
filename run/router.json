@@ -69,19 +69,6 @@
       "HEAD",
       "GET"
     ],
-    "paramNames": [],
-    "path": "/api/v1/videos/upload_info",
-    "regexp": "/^\\/api\\/v1\\/videos\\/upload_info(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
     "paramNames": [
       {
         "name": "id",
@@ -96,6 +83,54 @@
     ],
     "path": "/api/v1/videos/:id",
     "regexp": "/^\\/api\\/v1\\/videos\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [
+      {
+        "name": "videoId",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/videos/:videoId/likes",
+    "regexp": "/^\\/api\\/v1\\/videos\\/((?:[^\\/]+?))\\/likes(?:\\/(?=$))?$/",
+    "stack": [
+      "anonymous",
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "action",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/api/v1/vod/:action",
+    "regexp": "/^\\/api\\/v1\\/vod\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
