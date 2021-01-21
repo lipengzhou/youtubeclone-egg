@@ -1,3 +1,7 @@
+/**
+ * 用户
+ */
+
 const { md5 } = require("../extend/helper")
 
 module.exports = app => {
@@ -16,6 +20,7 @@ module.exports = app => {
     password: { // 密码
       type: String,
       set: v => md5(v),
+      select: false,
       required: true
     },
     avatar: { // 头像
@@ -29,10 +34,6 @@ module.exports = app => {
     channelDescription: { // 频道介绍
       type: String,
       default: ''
-    },
-    subscriptions: {
-      type: [mongoose.ObjectId],
-      default: () => []
     },
     createdAt: { // 创建时间
       type: Date,

@@ -542,3 +542,44 @@ headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonn
 pid: 6888
 hostname: DESKTOP-CQ7J378
 
+2021-01-21 14:34:40,114 ERROR 31320 [-/127.0.0.1/-/4ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'find' of undefined
+    at VideoController.videos (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\video.js:30:32)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 31320
+hostname: DESKTOP-CQ7J378
+
+2021-01-21 14:42:15,140 WARN 28836 [-/127.0.0.1/-/31ms POST /api/v1/auth/login] nodejs.UnprocessableEntityError: 密码错误
+    at Object.throw (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\lib\context.js:97:11)
+    at AuthController.login (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\auth.js:90:28)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-bodyparser\index.js:95:5)
+    at async C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-static-cache\index.js:39:63
+    at async notfound (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg\app\middleware\meta.js:17:5)
+    at async cors (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@koa\cors\index.js:98:16)
+message: "密码错误"
+headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonngafenjhfehlb","vary":"Origin"}
+pid: 28836
+hostname: DESKTOP-CQ7J378
+

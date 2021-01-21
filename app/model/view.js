@@ -1,13 +1,12 @@
+/**
+ * 观看记录
+ */
+
 module.exports = app => {
   const mongoose = app.mongoose
   const Schema = mongoose.Schema
 
-  const videoLikeSchema = new Schema({
-    like: {
-      type: Number,
-      required: true,
-      enum: [-1, 0, 1]
-    },
+  const viewSchema = new Schema({
     video: {
       type: mongoose.ObjectId,
       required: true,
@@ -28,5 +27,5 @@ module.exports = app => {
     }
   })
 
-  return mongoose.model('VideoLike', videoLikeSchema)
+  return mongoose.model('View', viewSchema)
 }

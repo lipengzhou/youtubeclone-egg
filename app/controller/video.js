@@ -25,18 +25,25 @@ const createVideoRule = {
 }
 
 class VideoController extends Controller {
+  async videos() {
+    const { Video } = this.ctx.model
+    const videos = await Video
+      .find()
+      .populate('user', 'avatar username')
+      .sort({
+        createdAt: -1
+      })
+
+    this.ctx.body = {
+      videos
+    }
+  }
+
   async create() {
     const body = this.ctx.request.body
     this.ctx.validate(createVideoRule, body)
 
     body.video.user = this.ctx.user._id
-
-    // 更新 vod 视频信息
-    await this.app.vodClient.request('UpdateVideoInfo', {
-      VideoId: body.video.videoId,
-      Title: body.video.Title,
-      Description: body.video.Description
-    })
 
     // 保存到业务数据库中
     const video = new this.ctx.model.Video(body.video)
@@ -45,7 +52,7 @@ class VideoController extends Controller {
     this.ctx.body = video
   }
 
-  async video () {
+  async video() {
     const videoId = this.ctx.params.id
     const video = await this.ctx.model.Video.findById(videoId).populate('user')
     if (!video) {
@@ -67,7 +74,7 @@ class VideoController extends Controller {
     this.ctx.body = video
   }
 
-  async createLike () {
+  async createLike() {
     const body = this.ctx.request.body
     const VideoLike = this.ctx.model.VideoLike
     const { videoId } = this.ctx.params
@@ -90,6 +97,7 @@ class VideoController extends Controller {
       videoLike.updatedAt = new Date()
       await videoLike.save()
     }
+
     this.ctx.body = videoLike
   }
 }

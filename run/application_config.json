@@ -177,9 +177,7 @@
       "maxFiles": 1000
     },
     "view": {
-      "root": [
-        "C:\\Users\\lpz\\Projects\\youtubeclone-egg\\app\\view"
-      ],
+      "root": [],
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "nunjucks",

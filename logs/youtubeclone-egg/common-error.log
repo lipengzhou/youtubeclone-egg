@@ -276,3 +276,51 @@ headers: {"Access-Control-Allow-Origin":"chrome-extension://bephiepmhphdlafkfonn
 pid: 6888
 hostname: DESKTOP-CQ7J378
 
+2021-01-21 13:40:37,627 ERROR 18936 [egg-mongoose] mongodb://127.0.0.1/youtube-clone disconnected
+2021-01-21 13:40:38,433 ERROR 34144 nodejs.ClusterClientNoResponseError: client no response in 295985ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 34144
+hostname: DESKTOP-CQ7J378
+
+2021-01-21 14:34:40,112 ERROR 31320 [-/127.0.0.1/-/4ms GET /api/v1/videos] nodejs.TypeError: Cannot read property 'find' of undefined
+    at VideoController.videos (C:\Users\lpz\Projects\youtubeclone-egg\app\controller\video.js:30:32)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at i18n (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (C:\Users\lpz\Projects\youtubeclone-egg\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 31320
+hostname: DESKTOP-CQ7J378
+
+2021-01-21 14:45:49,397 ERROR 32276 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 32276
+hostname: DESKTOP-CQ7J378
+
+2021-01-21 15:50:07,564 ERROR 32276 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 32276
+hostname: DESKTOP-CQ7J378
+

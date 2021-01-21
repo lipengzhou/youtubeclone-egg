@@ -1,23 +1,26 @@
 /**
- * 视频评论
+ * 视频点赞
  */
 
 module.exports = app => {
   const mongoose = app.mongoose
   const Schema = mongoose.Schema
 
-  const userSchema = new Schema({
-    content: { // 评论内容
-      type: String,
-      required: true
+  const videoLikeSchema = new Schema({
+    like: {
+      type: Number,
+      required: true,
+      enum: [-1, 0, 1]
     },
-    user: { // 评论用户
+    video: {
       type: mongoose.ObjectId,
-      required: true
+      required: true,
+      ref: 'Video'
     },
-    video: { // 评论视频
+    user: { // 点赞用户
       type: mongoose.ObjectId,
-      required: true
+      required: true,
+      ref: 'User'
     },
     createdAt: { // 创建时间
       type: Date,
@@ -29,5 +32,5 @@ module.exports = app => {
     }
   })
 
-  return mongoose.model('Comment', userSchema)
+  return mongoose.model('VideoLike', videoLikeSchema)
 }
